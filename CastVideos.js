@@ -16,6 +16,11 @@
 (function() {
   'use strict';
 
+ /**
+ * Custom app ID
+ **/ 
+var VOD_TESTING_APPLICATION_ID = '1F82CCA9';
+  
 /**
  * Media source root URL
  **/
@@ -136,7 +141,7 @@ CastPlayer.prototype.initializeCastPlayer = function() {
   }
   // default set to the default media receiver app ID
   // optional: you may change it to point to your own
-  var applicationID = chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID;
+  var applicationID = chrome.cast.media.VOD_TESTING_APPLICATION_ID;
 
   // request session
   var sessionRequest = new chrome.cast.SessionRequest(applicationID);
