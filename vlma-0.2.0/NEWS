@@ -1,0 +1,46 @@
+Changes between 0.1 and 0.2.0
+=============================
+
+Important notes:
+----------------
+ * The daemon and web UI are now provided in a single archive file,
+   which includes wrapper scripts to start and shutdown VLMa.
+ * data.xml format has been updated, a file working with VLMa 0.1 will
+   not work with later versions.
+ * Many things are now configurable (telnet port, password, default SAP
+   group, etc.), they are saved in the config.properties file.
+
+Changes:
+--------
+Daemon:
+ * A shutdown hook has been added to make sure that everything is
+   stopped properly (graph updates, etc.).
+
+Streaming:
+ * HTTP streaming support.
+ * Podcast announcement support.
+ * VLMa can now use other streams as input.
+ * Ability to choose the encapsulation format.
+ * There can be more than one files channel per server.
+ * Dynamic assignment of files and stream channels (no more need to provide
+   the server to VLMa).
+
+Web interface:
+ * Auto generated M3U playlist.
+ * Commands which are sent to the telnet interface of VLC instances can
+   be monitored online.
+ * Configuration is manageable online.
+ * The web interface now can reconnect to the RMI registry if the daemon
+   becomes unavailable or is restarted. There is no more need to reload
+   the webapp.
+ * The use of the fictive stream and files adapters has been made
+   transparent.
+ * Various help messages have been added.
+
+Notifiers:
+ * Some notifiers have been implemented in order to advise of servers'
+   accessibility:
+    - mail,
+    - MSN,
+    - IRC.
+

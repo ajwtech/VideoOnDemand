@@ -1,0 +1,1767 @@
+11:03:53,824 - INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c091cee: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2c091cee]; startup date [Thu Feb 13 11:03:53 EST 2014]; root of context hierarchy
+11:03:53,905 - INFO  - Loading XML bean definitions from class path resource [daemon.xml]
+11:03:54,302 - INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2c091cee]: org.springframework.beans.factory.support.DefaultListableBeanFactory@21aed5f9
+11:03:54,339 - INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@21aed5f9: defining beans [configuration,daemon,dataExporter,dataSource,vlmaDao,vlmaService,commandLogger,dataRetriever,ipBank,ircNotifier,mailNotifier,msnNotifier,mailSender,orderGiver,orderMonitor,orderSender,programFactory,serverMonitor,serverStateMonitor,streamWatcher,httpSteamWatcher,directMulticastStreamWatcher,mockStreamWatcher]; root of factory hierarchy
+11:03:54,920 - INFO  - Looking for RMI registry at port '9050'
+11:03:56,371 - INFO  - Could not detect RMI registry - creating new one
+11:03:56,391 - INFO  - Binding service 'VLMaDataService' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.56.1:9050](local),objID:[0:0:0, 0]]]]
+11:03:56,450 - WARN  - Unable to read data.xml
+11:03:56,479 - INFO  - Starting OrderMonitor
+11:03:56,479 - INFO  - Starting ServerMonitor
+11:03:56,480 - INFO  - Starting ServerStateMonitor
+11:19:11,854 - INFO  - Stopping monitors...
+11:19:11,854 - INFO  - Stopping OrderMonitor
+11:19:11,854 - INFO  - Stopping ServerMonitor
+11:19:11,854 - INFO  - Stopping ServerStateMonitor
+11:19:11,855 - INFO  - Stopping notifiers...
+11:19:11,855 - INFO  - Unbinding RMI service 'VLMaDataService' from registry at port '9050'
+11:19:21,710 - INFO  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5311a775: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5311a775]; startup date [Thu Feb 13 11:19:21 EST 2014]; root of context hierarchy
+11:19:21,762 - INFO  - Loading XML bean definitions from class path resource [daemon.xml]
+11:19:21,911 - INFO  - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5311a775]: org.springframework.beans.factory.support.DefaultListableBeanFactory@21aed5f9
+11:19:21,941 - INFO  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@21aed5f9: defining beans [configuration,daemon,dataExporter,dataSource,vlmaDao,vlmaService,commandLogger,dataRetriever,ipBank,ircNotifier,mailNotifier,msnNotifier,mailSender,orderGiver,orderMonitor,orderSender,programFactory,serverMonitor,serverStateMonitor,streamWatcher,httpSteamWatcher,directMulticastStreamWatcher,mockStreamWatcher]; root of factory hierarchy
+11:19:22,203 - INFO  - Looking for RMI registry at port '9050'
+11:19:23,318 - INFO  - Could not detect RMI registry - creating new one
+11:19:23,323 - INFO  - Binding service 'VLMaDataService' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.56.1:9050](local),objID:[0:0:0, 0]]]]
+11:19:23,420 - INFO  - Starting OrderMonitor
+11:19:23,421 - INFO  - Starting ServerMonitor
+11:19:23,421 - INFO  - Starting ServerStateMonitor
+11:26:23,954 - INFO  - Program test is currently not played.
+11:26:23,954 - INFO  - Ask for programs reassignment.
+11:26:23,955 - INFO  - Starting computing channels assignment.
+11:26:23,956 - INFO  - Orders computation done in 1ms
+11:26:23,956 - INFO  - Now sending orders
+11:26:23,956 - INFO  - Orders sent in 0ms
+11:27:23,925 - INFO  - Program test is currently not played.
+11:27:23,925 - INFO  - Ask for programs reassignment.
+11:27:23,926 - INFO  - Starting computing channels assignment.
+11:27:23,926 - INFO  - Orders computation done in 0ms
+11:27:23,927 - INFO  - Now sending orders
+11:27:23,927 - INFO  - Orders sent in 0ms
+11:28:23,926 - INFO  - Program test is currently not played.
+11:28:23,926 - INFO  - Ask for programs reassignment.
+11:28:23,927 - INFO  - Starting computing channels assignment.
+11:28:23,927 - INFO  - Orders computation done in 0ms
+11:28:23,927 - INFO  - Now sending orders
+11:28:23,927 - INFO  - Orders sent in 0ms
+11:29:23,929 - INFO  - Program test is currently not played.
+11:29:23,929 - INFO  - Ask for programs reassignment.
+11:29:23,930 - INFO  - Starting computing channels assignment.
+11:29:23,930 - INFO  - Orders computation done in 0ms
+11:29:23,930 - INFO  - Now sending orders
+11:29:23,931 - INFO  - Orders sent in 1ms
+11:30:23,931 - INFO  - Program test is currently not played.
+11:30:23,931 - INFO  - Ask for programs reassignment.
+11:30:23,932 - INFO  - Starting computing channels assignment.
+11:30:23,933 - INFO  - Orders computation done in 0ms
+11:30:23,933 - INFO  - Now sending orders
+11:30:23,933 - INFO  - Orders sent in 0ms
+11:31:23,932 - INFO  - Program test is currently not played.
+11:31:23,932 - INFO  - Ask for programs reassignment.
+11:31:23,933 - INFO  - Starting computing channels assignment.
+11:31:23,934 - INFO  - Orders computation done in 0ms
+11:31:23,934 - INFO  - Now sending orders
+11:31:23,934 - INFO  - Orders sent in 0ms
+11:32:23,932 - INFO  - Program test is currently not played.
+11:32:23,932 - INFO  - Ask for programs reassignment.
+11:32:23,933 - INFO  - Starting computing channels assignment.
+11:32:23,933 - INFO  - Orders computation done in 0ms
+11:32:23,934 - INFO  - Now sending orders
+11:32:23,934 - INFO  - Orders sent in 0ms
+11:33:23,932 - INFO  - Program test is currently not played.
+11:33:23,932 - INFO  - Ask for programs reassignment.
+11:33:23,933 - INFO  - Starting computing channels assignment.
+11:33:23,933 - INFO  - Orders computation done in 0ms
+11:33:23,934 - INFO  - Now sending orders
+11:33:23,934 - INFO  - Orders sent in 0ms
+11:34:23,942 - INFO  - Program test is currently not played.
+11:34:23,942 - INFO  - Ask for programs reassignment.
+11:34:23,944 - INFO  - Starting computing channels assignment.
+11:34:23,944 - INFO  - Orders computation done in 0ms
+11:34:23,945 - INFO  - Now sending orders
+11:34:23,945 - INFO  - Orders sent in 0ms
+11:35:23,942 - INFO  - Program test is currently not played.
+11:35:23,942 - INFO  - Ask for programs reassignment.
+11:35:23,943 - INFO  - Starting computing channels assignment.
+11:35:23,943 - INFO  - Orders computation done in 0ms
+11:35:23,944 - INFO  - Now sending orders
+11:35:23,944 - INFO  - Orders sent in 0ms
+11:36:23,943 - INFO  - Program test is currently not played.
+11:36:23,943 - INFO  - Ask for programs reassignment.
+11:36:23,944 - INFO  - Starting computing channels assignment.
+11:36:23,944 - INFO  - Orders computation done in 0ms
+11:36:23,944 - INFO  - Now sending orders
+11:36:23,945 - INFO  - Orders sent in 0ms
+11:37:23,943 - INFO  - Program test is currently not played.
+11:37:23,943 - INFO  - Ask for programs reassignment.
+11:37:23,944 - INFO  - Starting computing channels assignment.
+11:37:23,944 - INFO  - Orders computation done in 0ms
+11:37:23,945 - INFO  - Now sending orders
+11:37:23,945 - INFO  - Orders sent in 0ms
+11:38:23,944 - INFO  - Program test is currently not played.
+11:38:23,944 - INFO  - Ask for programs reassignment.
+11:38:23,945 - INFO  - Starting computing channels assignment.
+11:38:23,945 - INFO  - Orders computation done in 0ms
+11:38:23,946 - INFO  - Now sending orders
+11:38:23,946 - INFO  - Orders sent in 0ms
+11:39:23,944 - INFO  - Program test is currently not played.
+11:39:23,944 - INFO  - Ask for programs reassignment.
+11:39:23,945 - INFO  - Starting computing channels assignment.
+11:39:23,945 - INFO  - Orders computation done in 0ms
+11:39:23,946 - INFO  - Now sending orders
+11:39:23,946 - INFO  - Orders sent in 0ms
+11:40:23,945 - INFO  - Program test is currently not played.
+11:40:23,945 - INFO  - Ask for programs reassignment.
+11:40:23,946 - INFO  - Starting computing channels assignment.
+11:40:23,946 - INFO  - Orders computation done in 0ms
+11:40:23,946 - INFO  - Now sending orders
+11:40:23,947 - INFO  - Orders sent in 0ms
+11:41:23,945 - INFO  - Program test is currently not played.
+11:41:23,945 - INFO  - Ask for programs reassignment.
+11:41:23,946 - INFO  - Starting computing channels assignment.
+11:41:23,946 - INFO  - Orders computation done in 0ms
+11:41:23,947 - INFO  - Now sending orders
+11:41:23,947 - INFO  - Orders sent in 0ms
+11:42:23,946 - INFO  - Program test is currently not played.
+11:42:23,946 - INFO  - Ask for programs reassignment.
+11:42:23,947 - INFO  - Starting computing channels assignment.
+11:42:23,947 - INFO  - Orders computation done in 0ms
+11:42:23,947 - INFO  - Now sending orders
+11:42:23,948 - INFO  - Orders sent in 0ms
+11:43:23,946 - INFO  - Program test is currently not played.
+11:43:23,946 - INFO  - Ask for programs reassignment.
+11:43:23,947 - INFO  - Starting computing channels assignment.
+11:43:23,947 - INFO  - Orders computation done in 0ms
+11:43:23,948 - INFO  - Now sending orders
+11:43:23,948 - INFO  - Orders sent in 0ms
+11:44:23,946 - INFO  - Program test is currently not played.
+11:44:23,946 - INFO  - Ask for programs reassignment.
+11:44:23,947 - INFO  - Starting computing channels assignment.
+11:44:23,947 - INFO  - Orders computation done in 0ms
+11:44:23,947 - INFO  - Now sending orders
+11:44:23,948 - INFO  - Orders sent in 0ms
+11:45:23,947 - INFO  - Program test is currently not played.
+11:45:23,947 - INFO  - Ask for programs reassignment.
+11:45:23,948 - INFO  - Starting computing channels assignment.
+11:45:23,948 - INFO  - Orders computation done in 0ms
+11:45:23,949 - INFO  - Now sending orders
+11:45:23,949 - INFO  - Orders sent in 0ms
+11:46:23,947 - INFO  - Program test is currently not played.
+11:46:23,947 - INFO  - Ask for programs reassignment.
+11:46:23,948 - INFO  - Starting computing channels assignment.
+11:46:23,948 - INFO  - Orders computation done in 0ms
+11:46:23,948 - INFO  - Now sending orders
+11:46:23,949 - INFO  - Orders sent in 0ms
+11:47:23,948 - INFO  - Program test is currently not played.
+11:47:23,948 - INFO  - Ask for programs reassignment.
+11:47:23,949 - INFO  - Starting computing channels assignment.
+11:47:23,949 - INFO  - Orders computation done in 0ms
+11:47:23,950 - INFO  - Now sending orders
+11:47:23,950 - INFO  - Orders sent in 0ms
+11:48:23,948 - INFO  - Program test is currently not played.
+11:48:23,948 - INFO  - Ask for programs reassignment.
+11:48:23,949 - INFO  - Starting computing channels assignment.
+11:48:23,950 - INFO  - Orders computation done in 0ms
+11:48:23,950 - INFO  - Now sending orders
+11:48:23,950 - INFO  - Orders sent in 0ms
+11:49:23,949 - INFO  - Program test is currently not played.
+11:49:23,949 - INFO  - Ask for programs reassignment.
+11:49:23,950 - INFO  - Starting computing channels assignment.
+11:49:23,951 - INFO  - Orders computation done in 0ms
+11:49:23,951 - INFO  - Now sending orders
+11:49:23,951 - INFO  - Orders sent in 0ms
+11:50:23,948 - INFO  - Program test is currently not played.
+11:50:23,948 - INFO  - Ask for programs reassignment.
+11:50:23,949 - INFO  - Starting computing channels assignment.
+11:50:23,949 - INFO  - Orders computation done in 0ms
+11:50:23,949 - INFO  - Now sending orders
+11:50:23,950 - INFO  - Orders sent in 0ms
+11:51:23,949 - INFO  - Program test is currently not played.
+11:51:23,949 - INFO  - Ask for programs reassignment.
+11:51:23,950 - INFO  - Starting computing channels assignment.
+11:51:23,950 - INFO  - Orders computation done in 0ms
+11:51:23,950 - INFO  - Now sending orders
+11:51:23,951 - INFO  - Orders sent in 0ms
+11:52:23,950 - INFO  - Program test is currently not played.
+11:52:23,950 - INFO  - Ask for programs reassignment.
+11:52:23,950 - INFO  - Starting computing channels assignment.
+11:52:23,950 - INFO  - Orders computation done in 0ms
+11:52:23,950 - INFO  - Now sending orders
+11:52:23,951 - INFO  - Orders sent in 0ms
+11:53:23,950 - INFO  - Program test is currently not played.
+11:53:23,950 - INFO  - Ask for programs reassignment.
+11:53:23,951 - INFO  - Starting computing channels assignment.
+11:53:23,951 - INFO  - Orders computation done in 0ms
+11:53:23,951 - INFO  - Now sending orders
+11:53:23,952 - INFO  - Orders sent in 0ms
+11:54:23,951 - INFO  - Program test is currently not played.
+11:54:23,951 - INFO  - Ask for programs reassignment.
+11:54:23,952 - INFO  - Starting computing channels assignment.
+11:54:23,952 - INFO  - Orders computation done in 0ms
+11:54:23,952 - INFO  - Now sending orders
+11:54:23,952 - INFO  - Orders sent in 0ms
+11:55:23,950 - INFO  - Program test is currently not played.
+11:55:23,950 - INFO  - Ask for programs reassignment.
+11:55:23,951 - INFO  - Starting computing channels assignment.
+11:55:23,951 - INFO  - Orders computation done in 0ms
+11:55:23,951 - INFO  - Now sending orders
+11:55:23,951 - INFO  - Orders sent in 0ms
+11:56:23,952 - INFO  - Program test is currently not played.
+11:56:23,952 - INFO  - Ask for programs reassignment.
+11:56:23,953 - INFO  - Starting computing channels assignment.
+11:56:23,953 - INFO  - Orders computation done in 0ms
+11:56:23,953 - INFO  - Now sending orders
+11:56:23,953 - INFO  - Orders sent in 0ms
+11:57:23,952 - INFO  - Program test is currently not played.
+11:57:23,952 - INFO  - Ask for programs reassignment.
+11:57:23,952 - INFO  - Starting computing channels assignment.
+11:57:23,953 - INFO  - Orders computation done in 0ms
+11:57:23,953 - INFO  - Now sending orders
+11:57:23,953 - INFO  - Orders sent in 0ms
+11:58:23,952 - INFO  - Program test is currently not played.
+11:58:23,952 - INFO  - Ask for programs reassignment.
+11:58:23,953 - INFO  - Starting computing channels assignment.
+11:58:23,953 - INFO  - Orders computation done in 0ms
+11:58:23,953 - INFO  - Now sending orders
+11:58:23,953 - INFO  - Orders sent in 0ms
+11:59:23,953 - INFO  - Program test is currently not played.
+11:59:23,953 - INFO  - Ask for programs reassignment.
+11:59:23,954 - INFO  - Starting computing channels assignment.
+11:59:23,954 - INFO  - Orders computation done in 0ms
+11:59:23,954 - INFO  - Now sending orders
+11:59:23,954 - INFO  - Orders sent in 0ms
+12:00:23,953 - INFO  - Program test is currently not played.
+12:00:23,953 - INFO  - Ask for programs reassignment.
+12:00:23,954 - INFO  - Starting computing channels assignment.
+12:00:23,954 - INFO  - Orders computation done in 0ms
+12:00:23,954 - INFO  - Now sending orders
+12:00:23,954 - INFO  - Orders sent in 0ms
+12:01:23,953 - INFO  - Program test is currently not played.
+12:01:23,953 - INFO  - Ask for programs reassignment.
+12:01:23,953 - INFO  - Starting computing channels assignment.
+12:01:23,954 - INFO  - Orders computation done in 0ms
+12:01:23,954 - INFO  - Now sending orders
+12:01:23,954 - INFO  - Orders sent in 0ms
+12:02:23,954 - INFO  - Program test is currently not played.
+12:02:23,954 - INFO  - Ask for programs reassignment.
+12:02:23,955 - INFO  - Starting computing channels assignment.
+12:02:23,955 - INFO  - Orders computation done in 0ms
+12:02:23,955 - INFO  - Now sending orders
+12:02:23,955 - INFO  - Orders sent in 0ms
+12:03:23,955 - INFO  - Program test is currently not played.
+12:03:23,955 - INFO  - Ask for programs reassignment.
+12:03:23,956 - INFO  - Starting computing channels assignment.
+12:03:23,956 - INFO  - Orders computation done in 0ms
+12:03:23,956 - INFO  - Now sending orders
+12:03:23,956 - INFO  - Orders sent in 0ms
+12:04:23,955 - INFO  - Program test is currently not played.
+12:04:23,955 - INFO  - Ask for programs reassignment.
+12:04:23,956 - INFO  - Starting computing channels assignment.
+12:04:23,956 - INFO  - Orders computation done in 0ms
+12:04:23,956 - INFO  - Now sending orders
+12:04:23,956 - INFO  - Orders sent in 0ms
+12:05:23,955 - INFO  - Program test is currently not played.
+12:05:23,955 - INFO  - Ask for programs reassignment.
+12:05:23,957 - INFO  - Starting computing channels assignment.
+12:05:23,957 - INFO  - Orders computation done in 0ms
+12:05:23,957 - INFO  - Now sending orders
+12:05:23,957 - INFO  - Orders sent in 0ms
+12:06:23,956 - INFO  - Program test is currently not played.
+12:06:23,956 - INFO  - Ask for programs reassignment.
+12:06:23,957 - INFO  - Starting computing channels assignment.
+12:06:23,957 - INFO  - Orders computation done in 0ms
+12:06:23,957 - INFO  - Now sending orders
+12:06:23,957 - INFO  - Orders sent in 0ms
+12:07:23,956 - INFO  - Program test is currently not played.
+12:07:23,956 - INFO  - Ask for programs reassignment.
+12:07:23,957 - INFO  - Starting computing channels assignment.
+12:07:23,957 - INFO  - Orders computation done in 0ms
+12:07:23,957 - INFO  - Now sending orders
+12:07:23,957 - INFO  - Orders sent in 0ms
+12:08:23,957 - INFO  - Program test is currently not played.
+12:08:23,957 - INFO  - Ask for programs reassignment.
+12:08:23,958 - INFO  - Starting computing channels assignment.
+12:08:23,959 - INFO  - Orders computation done in 0ms
+12:08:23,959 - INFO  - Now sending orders
+12:08:23,959 - INFO  - Orders sent in 0ms
+12:09:23,956 - INFO  - Program test is currently not played.
+12:09:23,956 - INFO  - Ask for programs reassignment.
+12:09:23,956 - INFO  - Starting computing channels assignment.
+12:09:23,957 - INFO  - Orders computation done in 1ms
+12:09:23,957 - INFO  - Now sending orders
+12:09:23,957 - INFO  - Orders sent in 0ms
+12:10:23,958 - INFO  - Program test is currently not played.
+12:10:23,958 - INFO  - Ask for programs reassignment.
+12:10:23,959 - INFO  - Starting computing channels assignment.
+12:10:23,959 - INFO  - Orders computation done in 0ms
+12:10:23,959 - INFO  - Now sending orders
+12:10:23,959 - INFO  - Orders sent in 0ms
+12:11:23,957 - INFO  - Program test is currently not played.
+12:11:23,957 - INFO  - Ask for programs reassignment.
+12:11:23,958 - INFO  - Starting computing channels assignment.
+12:11:23,958 - INFO  - Orders computation done in 0ms
+12:11:23,958 - INFO  - Now sending orders
+12:11:23,958 - INFO  - Orders sent in 0ms
+12:12:23,958 - INFO  - Program test is currently not played.
+12:12:23,958 - INFO  - Ask for programs reassignment.
+12:12:23,958 - INFO  - Starting computing channels assignment.
+12:12:23,959 - INFO  - Orders computation done in 0ms
+12:12:23,959 - INFO  - Now sending orders
+12:12:23,959 - INFO  - Orders sent in 0ms
+12:13:23,959 - INFO  - Program test is currently not played.
+12:13:23,959 - INFO  - Ask for programs reassignment.
+12:13:23,960 - INFO  - Starting computing channels assignment.
+12:13:23,960 - INFO  - Orders computation done in 0ms
+12:13:23,960 - INFO  - Now sending orders
+12:13:23,960 - INFO  - Orders sent in 0ms
+12:14:23,959 - INFO  - Program test is currently not played.
+12:14:23,959 - INFO  - Ask for programs reassignment.
+12:14:23,960 - INFO  - Starting computing channels assignment.
+12:14:23,960 - INFO  - Orders computation done in 0ms
+12:14:23,960 - INFO  - Now sending orders
+12:14:23,960 - INFO  - Orders sent in 0ms
+12:15:23,960 - INFO  - Program test is currently not played.
+12:15:23,960 - INFO  - Ask for programs reassignment.
+12:15:23,961 - INFO  - Starting computing channels assignment.
+12:15:23,961 - INFO  - Orders computation done in 0ms
+12:15:23,961 - INFO  - Now sending orders
+12:15:23,961 - INFO  - Orders sent in 0ms
+12:16:23,960 - INFO  - Program test is currently not played.
+12:16:23,960 - INFO  - Ask for programs reassignment.
+12:16:23,961 - INFO  - Starting computing channels assignment.
+12:16:23,961 - INFO  - Orders computation done in 0ms
+12:16:23,961 - INFO  - Now sending orders
+12:16:23,961 - INFO  - Orders sent in 0ms
+12:17:23,961 - INFO  - Program test is currently not played.
+12:17:23,961 - INFO  - Ask for programs reassignment.
+12:17:23,962 - INFO  - Starting computing channels assignment.
+12:17:23,962 - INFO  - Orders computation done in 0ms
+12:17:23,962 - INFO  - Now sending orders
+12:17:23,962 - INFO  - Orders sent in 0ms
+12:18:23,961 - INFO  - Program test is currently not played.
+12:18:23,961 - INFO  - Ask for programs reassignment.
+12:18:23,962 - INFO  - Starting computing channels assignment.
+12:18:23,962 - INFO  - Orders computation done in 0ms
+12:18:23,962 - INFO  - Now sending orders
+12:18:23,962 - INFO  - Orders sent in 0ms
+12:19:23,961 - INFO  - Program test is currently not played.
+12:19:23,961 - INFO  - Ask for programs reassignment.
+12:19:23,962 - INFO  - Starting computing channels assignment.
+12:19:23,962 - INFO  - Orders computation done in 0ms
+12:19:23,962 - INFO  - Now sending orders
+12:19:23,962 - INFO  - Orders sent in 0ms
+12:20:23,962 - INFO  - Program test is currently not played.
+12:20:23,962 - INFO  - Ask for programs reassignment.
+12:20:23,963 - INFO  - Starting computing channels assignment.
+12:20:23,963 - INFO  - Orders computation done in 0ms
+12:20:23,963 - INFO  - Now sending orders
+12:20:23,963 - INFO  - Orders sent in 0ms
+12:21:23,962 - INFO  - Program test is currently not played.
+12:21:23,962 - INFO  - Ask for programs reassignment.
+12:21:23,963 - INFO  - Starting computing channels assignment.
+12:21:23,963 - INFO  - Orders computation done in 0ms
+12:21:23,963 - INFO  - Now sending orders
+12:21:23,963 - INFO  - Orders sent in 0ms
+12:22:23,963 - INFO  - Program test is currently not played.
+12:22:23,963 - INFO  - Ask for programs reassignment.
+12:22:23,964 - INFO  - Starting computing channels assignment.
+12:22:23,964 - INFO  - Orders computation done in 0ms
+12:22:23,964 - INFO  - Now sending orders
+12:22:23,964 - INFO  - Orders sent in 0ms
+12:23:23,963 - INFO  - Program test is currently not played.
+12:23:23,963 - INFO  - Ask for programs reassignment.
+12:23:23,964 - INFO  - Starting computing channels assignment.
+12:23:23,964 - INFO  - Orders computation done in 0ms
+12:23:23,964 - INFO  - Now sending orders
+12:23:23,964 - INFO  - Orders sent in 0ms
+12:24:23,964 - INFO  - Program test is currently not played.
+12:24:23,964 - INFO  - Ask for programs reassignment.
+12:24:23,965 - INFO  - Starting computing channels assignment.
+12:24:23,965 - INFO  - Orders computation done in 0ms
+12:24:23,965 - INFO  - Now sending orders
+12:24:23,965 - INFO  - Orders sent in 0ms
+12:25:23,964 - INFO  - Program test is currently not played.
+12:25:23,964 - INFO  - Ask for programs reassignment.
+12:25:23,965 - INFO  - Starting computing channels assignment.
+12:25:23,965 - INFO  - Orders computation done in 0ms
+12:25:23,965 - INFO  - Now sending orders
+12:25:23,965 - INFO  - Orders sent in 0ms
+12:26:23,965 - INFO  - Program test is currently not played.
+12:26:23,965 - INFO  - Ask for programs reassignment.
+12:26:23,966 - INFO  - Starting computing channels assignment.
+12:26:23,966 - INFO  - Orders computation done in 0ms
+12:26:23,966 - INFO  - Now sending orders
+12:26:23,966 - INFO  - Orders sent in 0ms
+12:27:23,965 - INFO  - Program test is currently not played.
+12:27:23,965 - INFO  - Ask for programs reassignment.
+12:27:23,966 - INFO  - Starting computing channels assignment.
+12:27:23,966 - INFO  - Orders computation done in 0ms
+12:27:23,966 - INFO  - Now sending orders
+12:27:23,966 - INFO  - Orders sent in 0ms
+12:28:23,966 - INFO  - Program test is currently not played.
+12:28:23,966 - INFO  - Ask for programs reassignment.
+12:28:23,966 - INFO  - Starting computing channels assignment.
+12:28:23,967 - INFO  - Orders computation done in 0ms
+12:28:23,967 - INFO  - Now sending orders
+12:28:23,967 - INFO  - Orders sent in 0ms
+12:29:23,967 - INFO  - Program test is currently not played.
+12:29:23,967 - INFO  - Ask for programs reassignment.
+12:29:23,968 - INFO  - Starting computing channels assignment.
+12:29:23,968 - INFO  - Orders computation done in 0ms
+12:29:23,968 - INFO  - Now sending orders
+12:29:23,968 - INFO  - Orders sent in 0ms
+12:30:23,967 - INFO  - Program test is currently not played.
+12:30:23,967 - INFO  - Ask for programs reassignment.
+12:30:23,968 - INFO  - Starting computing channels assignment.
+12:30:23,968 - INFO  - Orders computation done in 0ms
+12:30:23,968 - INFO  - Now sending orders
+12:30:23,968 - INFO  - Orders sent in 0ms
+12:31:23,968 - INFO  - Program test is currently not played.
+12:31:23,968 - INFO  - Ask for programs reassignment.
+12:31:23,969 - INFO  - Starting computing channels assignment.
+12:31:23,969 - INFO  - Orders computation done in 0ms
+12:31:23,969 - INFO  - Now sending orders
+12:31:23,969 - INFO  - Orders sent in 0ms
+12:32:23,968 - INFO  - Program test is currently not played.
+12:32:23,968 - INFO  - Ask for programs reassignment.
+12:32:23,968 - INFO  - Starting computing channels assignment.
+12:32:23,969 - INFO  - Orders computation done in 0ms
+12:32:23,969 - INFO  - Now sending orders
+12:32:23,969 - INFO  - Orders sent in 0ms
+12:33:23,968 - INFO  - Program test is currently not played.
+12:33:23,968 - INFO  - Ask for programs reassignment.
+12:33:23,969 - INFO  - Starting computing channels assignment.
+12:33:23,969 - INFO  - Orders computation done in 0ms
+12:33:23,969 - INFO  - Now sending orders
+12:33:23,969 - INFO  - Orders sent in 0ms
+12:34:23,969 - INFO  - Program test is currently not played.
+12:34:23,969 - INFO  - Ask for programs reassignment.
+12:34:23,971 - INFO  - Starting computing channels assignment.
+12:34:23,971 - INFO  - Orders computation done in 0ms
+12:34:23,971 - INFO  - Now sending orders
+12:34:23,971 - INFO  - Orders sent in 0ms
+12:35:23,969 - INFO  - Program test is currently not played.
+12:35:23,969 - INFO  - Ask for programs reassignment.
+12:35:23,970 - INFO  - Starting computing channels assignment.
+12:35:23,970 - INFO  - Orders computation done in 0ms
+12:35:23,970 - INFO  - Now sending orders
+12:35:23,970 - INFO  - Orders sent in 0ms
+12:36:23,970 - INFO  - Program test is currently not played.
+12:36:23,970 - INFO  - Ask for programs reassignment.
+12:36:23,970 - INFO  - Starting computing channels assignment.
+12:36:23,971 - INFO  - Orders computation done in 0ms
+12:36:23,971 - INFO  - Now sending orders
+12:36:23,971 - INFO  - Orders sent in 0ms
+12:37:23,970 - INFO  - Program test is currently not played.
+12:37:23,970 - INFO  - Ask for programs reassignment.
+12:37:23,971 - INFO  - Starting computing channels assignment.
+12:37:23,971 - INFO  - Orders computation done in 0ms
+12:37:23,971 - INFO  - Now sending orders
+12:37:23,971 - INFO  - Orders sent in 0ms
+12:38:23,971 - INFO  - Program test is currently not played.
+12:38:23,971 - INFO  - Ask for programs reassignment.
+12:38:23,972 - INFO  - Starting computing channels assignment.
+12:38:23,972 - INFO  - Orders computation done in 0ms
+12:38:23,972 - INFO  - Now sending orders
+12:38:23,972 - INFO  - Orders sent in 0ms
+12:39:23,970 - INFO  - Program test is currently not played.
+12:39:23,970 - INFO  - Ask for programs reassignment.
+12:39:23,970 - INFO  - Starting computing channels assignment.
+12:39:23,971 - INFO  - Orders computation done in 0ms
+12:39:23,971 - INFO  - Now sending orders
+12:39:23,971 - INFO  - Orders sent in 0ms
+12:40:23,972 - INFO  - Program test is currently not played.
+12:40:23,972 - INFO  - Ask for programs reassignment.
+12:40:23,972 - INFO  - Starting computing channels assignment.
+12:40:23,973 - INFO  - Orders computation done in 0ms
+12:40:23,973 - INFO  - Now sending orders
+12:40:23,973 - INFO  - Orders sent in 0ms
+12:41:23,972 - INFO  - Program test is currently not played.
+12:41:23,972 - INFO  - Ask for programs reassignment.
+12:41:23,973 - INFO  - Starting computing channels assignment.
+12:41:23,973 - INFO  - Orders computation done in 0ms
+12:41:23,974 - INFO  - Now sending orders
+12:41:23,974 - INFO  - Orders sent in 0ms
+12:42:23,972 - INFO  - Program test is currently not played.
+12:42:23,972 - INFO  - Ask for programs reassignment.
+12:42:23,973 - INFO  - Starting computing channels assignment.
+12:42:23,973 - INFO  - Orders computation done in 0ms
+12:42:23,973 - INFO  - Now sending orders
+12:42:23,973 - INFO  - Orders sent in 0ms
+12:43:23,973 - INFO  - Program test is currently not played.
+12:43:23,973 - INFO  - Ask for programs reassignment.
+12:43:23,974 - INFO  - Starting computing channels assignment.
+12:43:23,974 - INFO  - Orders computation done in 0ms
+12:43:23,974 - INFO  - Now sending orders
+12:43:23,974 - INFO  - Orders sent in 0ms
+12:44:23,973 - INFO  - Program test is currently not played.
+12:44:23,973 - INFO  - Ask for programs reassignment.
+12:44:23,974 - INFO  - Starting computing channels assignment.
+12:44:23,974 - INFO  - Orders computation done in 0ms
+12:44:23,974 - INFO  - Now sending orders
+12:44:23,974 - INFO  - Orders sent in 0ms
+12:45:23,974 - INFO  - Program test is currently not played.
+12:45:23,974 - INFO  - Ask for programs reassignment.
+12:45:23,975 - INFO  - Starting computing channels assignment.
+12:45:23,975 - INFO  - Orders computation done in 0ms
+12:45:23,975 - INFO  - Now sending orders
+12:45:23,975 - INFO  - Orders sent in 0ms
+12:46:23,973 - INFO  - Program test is currently not played.
+12:46:23,973 - INFO  - Ask for programs reassignment.
+12:46:23,974 - INFO  - Starting computing channels assignment.
+12:46:23,974 - INFO  - Orders computation done in 0ms
+12:46:23,974 - INFO  - Now sending orders
+12:46:23,974 - INFO  - Orders sent in 0ms
+12:47:23,974 - INFO  - Program test is currently not played.
+12:47:23,974 - INFO  - Ask for programs reassignment.
+12:47:23,974 - INFO  - Starting computing channels assignment.
+12:47:23,974 - INFO  - Orders computation done in 0ms
+12:47:23,975 - INFO  - Now sending orders
+12:47:23,975 - INFO  - Orders sent in 0ms
+12:48:23,975 - INFO  - Program test is currently not played.
+12:48:23,975 - INFO  - Ask for programs reassignment.
+12:48:23,975 - INFO  - Starting computing channels assignment.
+12:48:23,975 - INFO  - Orders computation done in 0ms
+12:48:23,976 - INFO  - Now sending orders
+12:48:23,976 - INFO  - Orders sent in 0ms
+12:49:23,975 - INFO  - Program test is currently not played.
+12:49:23,975 - INFO  - Ask for programs reassignment.
+12:49:23,976 - INFO  - Starting computing channels assignment.
+12:49:23,976 - INFO  - Orders computation done in 0ms
+12:49:23,976 - INFO  - Now sending orders
+12:49:23,976 - INFO  - Orders sent in 0ms
+12:50:23,975 - INFO  - Program test is currently not played.
+12:50:23,975 - INFO  - Ask for programs reassignment.
+12:50:23,975 - INFO  - Starting computing channels assignment.
+12:50:23,976 - INFO  - Orders computation done in 1ms
+12:50:23,976 - INFO  - Now sending orders
+12:50:23,976 - INFO  - Orders sent in 0ms
+12:51:23,976 - INFO  - Program test is currently not played.
+12:51:23,976 - INFO  - Ask for programs reassignment.
+12:51:23,976 - INFO  - Starting computing channels assignment.
+12:51:23,977 - INFO  - Orders computation done in 0ms
+12:51:23,977 - INFO  - Now sending orders
+12:51:23,977 - INFO  - Orders sent in 0ms
+12:52:23,977 - INFO  - Program test is currently not played.
+12:52:23,977 - INFO  - Ask for programs reassignment.
+12:52:23,978 - INFO  - Starting computing channels assignment.
+12:52:23,978 - INFO  - Orders computation done in 0ms
+12:52:23,978 - INFO  - Now sending orders
+12:52:23,978 - INFO  - Orders sent in 0ms
+12:53:23,977 - INFO  - Program test is currently not played.
+12:53:23,977 - INFO  - Ask for programs reassignment.
+12:53:23,977 - INFO  - Starting computing channels assignment.
+12:53:23,977 - INFO  - Orders computation done in 0ms
+12:53:23,978 - INFO  - Now sending orders
+12:53:23,978 - INFO  - Orders sent in 0ms
+12:54:23,977 - INFO  - Program test is currently not played.
+12:54:23,977 - INFO  - Ask for programs reassignment.
+12:54:23,978 - INFO  - Starting computing channels assignment.
+12:54:23,978 - INFO  - Orders computation done in 0ms
+12:54:23,978 - INFO  - Now sending orders
+12:54:23,978 - INFO  - Orders sent in 0ms
+12:55:23,978 - INFO  - Program test is currently not played.
+12:55:23,978 - INFO  - Ask for programs reassignment.
+12:55:23,979 - INFO  - Starting computing channels assignment.
+12:55:23,979 - INFO  - Orders computation done in 0ms
+12:55:23,979 - INFO  - Now sending orders
+12:55:23,979 - INFO  - Orders sent in 0ms
+12:56:23,978 - INFO  - Program test is currently not played.
+12:56:23,978 - INFO  - Ask for programs reassignment.
+12:56:23,978 - INFO  - Starting computing channels assignment.
+12:56:23,978 - INFO  - Orders computation done in 0ms
+12:56:23,978 - INFO  - Now sending orders
+12:56:23,979 - INFO  - Orders sent in 0ms
+12:57:23,979 - INFO  - Program test is currently not played.
+12:57:23,979 - INFO  - Ask for programs reassignment.
+12:57:23,980 - INFO  - Starting computing channels assignment.
+12:57:23,980 - INFO  - Orders computation done in 0ms
+12:57:23,980 - INFO  - Now sending orders
+12:57:23,980 - INFO  - Orders sent in 0ms
+12:58:23,979 - INFO  - Program test is currently not played.
+12:58:23,979 - INFO  - Ask for programs reassignment.
+12:58:23,980 - INFO  - Starting computing channels assignment.
+12:58:23,980 - INFO  - Orders computation done in 0ms
+12:58:23,980 - INFO  - Now sending orders
+12:58:23,980 - INFO  - Orders sent in 0ms
+12:59:23,980 - INFO  - Program test is currently not played.
+12:59:23,980 - INFO  - Ask for programs reassignment.
+12:59:23,980 - INFO  - Starting computing channels assignment.
+12:59:23,981 - INFO  - Orders computation done in 0ms
+12:59:23,981 - INFO  - Now sending orders
+12:59:23,981 - INFO  - Orders sent in 0ms
+13:00:23,980 - INFO  - Program test is currently not played.
+13:00:23,980 - INFO  - Ask for programs reassignment.
+13:00:23,980 - INFO  - Starting computing channels assignment.
+13:00:23,980 - INFO  - Orders computation done in 0ms
+13:00:23,980 - INFO  - Now sending orders
+13:00:23,981 - INFO  - Orders sent in 0ms
+13:01:23,980 - INFO  - Program test is currently not played.
+13:01:23,980 - INFO  - Ask for programs reassignment.
+13:01:23,981 - INFO  - Starting computing channels assignment.
+13:01:23,981 - INFO  - Orders computation done in 0ms
+13:01:23,981 - INFO  - Now sending orders
+13:01:23,981 - INFO  - Orders sent in 0ms
+13:02:23,981 - INFO  - Program test is currently not played.
+13:02:23,981 - INFO  - Ask for programs reassignment.
+13:02:23,982 - INFO  - Starting computing channels assignment.
+13:02:23,982 - INFO  - Orders computation done in 0ms
+13:02:23,982 - INFO  - Now sending orders
+13:02:23,982 - INFO  - Orders sent in 0ms
+13:03:23,981 - INFO  - Program test is currently not played.
+13:03:23,981 - INFO  - Ask for programs reassignment.
+13:03:23,983 - INFO  - Starting computing channels assignment.
+13:03:23,984 - INFO  - Orders computation done in 1ms
+13:03:23,984 - INFO  - Now sending orders
+13:03:23,985 - INFO  - Orders sent in 0ms
+13:04:23,982 - INFO  - Program test is currently not played.
+13:04:23,982 - INFO  - Ask for programs reassignment.
+13:04:23,983 - INFO  - Starting computing channels assignment.
+13:04:23,983 - INFO  - Orders computation done in 0ms
+13:04:23,983 - INFO  - Now sending orders
+13:04:23,983 - INFO  - Orders sent in 0ms
+13:05:23,982 - INFO  - Program test is currently not played.
+13:05:23,982 - INFO  - Ask for programs reassignment.
+13:05:23,983 - INFO  - Starting computing channels assignment.
+13:05:23,983 - INFO  - Orders computation done in 0ms
+13:05:23,983 - INFO  - Now sending orders
+13:05:23,983 - INFO  - Orders sent in 0ms
+13:06:23,982 - INFO  - Program test is currently not played.
+13:06:23,982 - INFO  - Ask for programs reassignment.
+13:06:23,983 - INFO  - Starting computing channels assignment.
+13:06:23,983 - INFO  - Orders computation done in 0ms
+13:06:23,983 - INFO  - Now sending orders
+13:06:23,983 - INFO  - Orders sent in 0ms
+13:07:23,983 - INFO  - Program test is currently not played.
+13:07:23,983 - INFO  - Ask for programs reassignment.
+13:07:23,983 - INFO  - Starting computing channels assignment.
+13:07:23,984 - INFO  - Orders computation done in 0ms
+13:07:23,984 - INFO  - Now sending orders
+13:07:23,984 - INFO  - Orders sent in 0ms
+13:08:23,984 - INFO  - Program test is currently not played.
+13:08:23,984 - INFO  - Ask for programs reassignment.
+13:08:23,985 - INFO  - Starting computing channels assignment.
+13:08:23,985 - INFO  - Orders computation done in 0ms
+13:08:23,985 - INFO  - Now sending orders
+13:08:23,985 - INFO  - Orders sent in 0ms
+13:09:23,984 - INFO  - Program test is currently not played.
+13:09:23,984 - INFO  - Ask for programs reassignment.
+13:09:23,985 - INFO  - Starting computing channels assignment.
+13:09:23,985 - INFO  - Orders computation done in 0ms
+13:09:23,985 - INFO  - Now sending orders
+13:09:23,985 - INFO  - Orders sent in 0ms
+13:10:23,985 - INFO  - Program test is currently not played.
+13:10:23,985 - INFO  - Ask for programs reassignment.
+13:10:23,986 - INFO  - Starting computing channels assignment.
+13:10:23,986 - INFO  - Orders computation done in 0ms
+13:10:23,986 - INFO  - Now sending orders
+13:10:23,986 - INFO  - Orders sent in 0ms
+13:11:23,985 - INFO  - Program test is currently not played.
+13:11:23,985 - INFO  - Ask for programs reassignment.
+13:11:23,986 - INFO  - Starting computing channels assignment.
+13:11:23,986 - INFO  - Orders computation done in 0ms
+13:11:23,986 - INFO  - Now sending orders
+13:11:23,986 - INFO  - Orders sent in 0ms
+13:12:23,985 - INFO  - Program test is currently not played.
+13:12:23,985 - INFO  - Ask for programs reassignment.
+13:12:23,986 - INFO  - Starting computing channels assignment.
+13:12:23,986 - INFO  - Orders computation done in 0ms
+13:12:23,986 - INFO  - Now sending orders
+13:12:23,986 - INFO  - Orders sent in 0ms
+13:13:23,986 - INFO  - Program test is currently not played.
+13:13:23,986 - INFO  - Ask for programs reassignment.
+13:13:23,987 - INFO  - Starting computing channels assignment.
+13:13:23,987 - INFO  - Orders computation done in 0ms
+13:13:23,987 - INFO  - Now sending orders
+13:13:23,988 - INFO  - Orders sent in 0ms
+13:14:23,986 - INFO  - Program test is currently not played.
+13:14:23,986 - INFO  - Ask for programs reassignment.
+13:14:23,987 - INFO  - Starting computing channels assignment.
+13:14:23,987 - INFO  - Orders computation done in 0ms
+13:14:23,987 - INFO  - Now sending orders
+13:14:23,987 - INFO  - Orders sent in 0ms
+13:15:23,986 - INFO  - Program test is currently not played.
+13:15:23,986 - INFO  - Ask for programs reassignment.
+13:15:23,987 - INFO  - Starting computing channels assignment.
+13:15:23,987 - INFO  - Orders computation done in 0ms
+13:15:23,987 - INFO  - Now sending orders
+13:15:23,987 - INFO  - Orders sent in 0ms
+13:16:23,987 - INFO  - Program test is currently not played.
+13:16:23,987 - INFO  - Ask for programs reassignment.
+13:16:23,988 - INFO  - Starting computing channels assignment.
+13:16:23,988 - INFO  - Orders computation done in 0ms
+13:16:23,988 - INFO  - Now sending orders
+13:16:23,988 - INFO  - Orders sent in 0ms
+13:17:23,988 - INFO  - Program test is currently not played.
+13:17:23,988 - INFO  - Ask for programs reassignment.
+13:17:23,989 - INFO  - Starting computing channels assignment.
+13:17:23,989 - INFO  - Orders computation done in 0ms
+13:17:23,989 - INFO  - Now sending orders
+13:17:23,989 - INFO  - Orders sent in 0ms
+13:18:23,988 - INFO  - Program test is currently not played.
+13:18:23,988 - INFO  - Ask for programs reassignment.
+13:18:23,989 - INFO  - Starting computing channels assignment.
+13:18:23,989 - INFO  - Orders computation done in 0ms
+13:18:23,989 - INFO  - Now sending orders
+13:18:23,989 - INFO  - Orders sent in 0ms
+13:19:23,988 - INFO  - Program test is currently not played.
+13:19:23,988 - INFO  - Ask for programs reassignment.
+13:19:23,989 - INFO  - Starting computing channels assignment.
+13:19:23,989 - INFO  - Orders computation done in 0ms
+13:19:23,989 - INFO  - Now sending orders
+13:19:23,989 - INFO  - Orders sent in 0ms
+13:20:23,988 - INFO  - Program test is currently not played.
+13:20:23,988 - INFO  - Ask for programs reassignment.
+13:20:23,988 - INFO  - Starting computing channels assignment.
+13:20:23,989 - INFO  - Orders computation done in 0ms
+13:20:23,989 - INFO  - Now sending orders
+13:20:23,989 - INFO  - Orders sent in 0ms
+13:21:23,989 - INFO  - Program test is currently not played.
+13:21:23,989 - INFO  - Ask for programs reassignment.
+13:21:23,990 - INFO  - Starting computing channels assignment.
+13:21:23,990 - INFO  - Orders computation done in 0ms
+13:21:23,990 - INFO  - Now sending orders
+13:21:23,990 - INFO  - Orders sent in 0ms
+13:22:23,990 - INFO  - Program test is currently not played.
+13:22:23,990 - INFO  - Ask for programs reassignment.
+13:22:23,991 - INFO  - Starting computing channels assignment.
+13:22:23,991 - INFO  - Orders computation done in 0ms
+13:22:23,991 - INFO  - Now sending orders
+13:22:23,991 - INFO  - Orders sent in 0ms
+13:23:23,990 - INFO  - Program test is currently not played.
+13:23:23,990 - INFO  - Ask for programs reassignment.
+13:23:23,991 - INFO  - Starting computing channels assignment.
+13:23:23,991 - INFO  - Orders computation done in 0ms
+13:23:23,991 - INFO  - Now sending orders
+13:23:23,991 - INFO  - Orders sent in 0ms
+13:24:23,991 - INFO  - Program test is currently not played.
+13:24:23,991 - INFO  - Ask for programs reassignment.
+13:24:23,991 - INFO  - Starting computing channels assignment.
+13:24:23,991 - INFO  - Orders computation done in 0ms
+13:24:23,992 - INFO  - Now sending orders
+13:24:23,992 - INFO  - Orders sent in 0ms
+13:25:23,991 - INFO  - Program test is currently not played.
+13:25:23,991 - INFO  - Ask for programs reassignment.
+13:25:23,992 - INFO  - Starting computing channels assignment.
+13:25:23,992 - INFO  - Orders computation done in 0ms
+13:25:23,992 - INFO  - Now sending orders
+13:25:23,992 - INFO  - Orders sent in 0ms
+13:26:23,991 - INFO  - Program test is currently not played.
+13:26:23,991 - INFO  - Ask for programs reassignment.
+13:26:23,992 - INFO  - Starting computing channels assignment.
+13:26:23,992 - INFO  - Orders computation done in 0ms
+13:26:23,992 - INFO  - Now sending orders
+13:26:23,993 - INFO  - Orders sent in 0ms
+13:27:23,992 - INFO  - Program test is currently not played.
+13:27:23,992 - INFO  - Ask for programs reassignment.
+13:27:23,992 - INFO  - Starting computing channels assignment.
+13:27:23,993 - INFO  - Orders computation done in 0ms
+13:27:23,993 - INFO  - Now sending orders
+13:27:23,993 - INFO  - Orders sent in 0ms
+13:28:23,992 - INFO  - Program test is currently not played.
+13:28:23,992 - INFO  - Ask for programs reassignment.
+13:28:23,993 - INFO  - Starting computing channels assignment.
+13:28:23,993 - INFO  - Orders computation done in 0ms
+13:28:23,993 - INFO  - Now sending orders
+13:28:23,993 - INFO  - Orders sent in 0ms
+13:29:23,993 - INFO  - Program test is currently not played.
+13:29:23,993 - INFO  - Ask for programs reassignment.
+13:29:23,994 - INFO  - Starting computing channels assignment.
+13:29:23,994 - INFO  - Orders computation done in 0ms
+13:29:23,994 - INFO  - Now sending orders
+13:29:23,994 - INFO  - Orders sent in 0ms
+13:30:23,993 - INFO  - Program test is currently not played.
+13:30:23,993 - INFO  - Ask for programs reassignment.
+13:30:23,994 - INFO  - Starting computing channels assignment.
+13:30:23,994 - INFO  - Orders computation done in 0ms
+13:30:23,994 - INFO  - Now sending orders
+13:30:23,994 - INFO  - Orders sent in 0ms
+13:31:23,994 - INFO  - Program test is currently not played.
+13:31:23,994 - INFO  - Ask for programs reassignment.
+13:31:23,994 - INFO  - Starting computing channels assignment.
+13:31:23,994 - INFO  - Orders computation done in 0ms
+13:31:23,995 - INFO  - Now sending orders
+13:31:23,995 - INFO  - Orders sent in 0ms
+13:32:23,995 - INFO  - Program test is currently not played.
+13:32:23,995 - INFO  - Ask for programs reassignment.
+13:32:23,996 - INFO  - Starting computing channels assignment.
+13:32:23,996 - INFO  - Orders computation done in 0ms
+13:32:23,996 - INFO  - Now sending orders
+13:32:23,996 - INFO  - Orders sent in 0ms
+13:33:23,995 - INFO  - Program test is currently not played.
+13:33:23,995 - INFO  - Ask for programs reassignment.
+13:33:23,996 - INFO  - Starting computing channels assignment.
+13:33:23,996 - INFO  - Orders computation done in 0ms
+13:33:23,996 - INFO  - Now sending orders
+13:33:23,996 - INFO  - Orders sent in 0ms
+13:34:23,996 - INFO  - Program test is currently not played.
+13:34:23,996 - INFO  - Ask for programs reassignment.
+13:34:23,997 - INFO  - Starting computing channels assignment.
+13:34:23,997 - INFO  - Orders computation done in 0ms
+13:34:23,998 - INFO  - Now sending orders
+13:34:23,998 - INFO  - Orders sent in 0ms
+13:35:23,996 - INFO  - Program test is currently not played.
+13:35:23,996 - INFO  - Ask for programs reassignment.
+13:35:23,997 - INFO  - Starting computing channels assignment.
+13:35:23,997 - INFO  - Orders computation done in 0ms
+13:35:23,997 - INFO  - Now sending orders
+13:35:23,997 - INFO  - Orders sent in 0ms
+13:36:23,996 - INFO  - Program test is currently not played.
+13:36:23,996 - INFO  - Ask for programs reassignment.
+13:36:23,997 - INFO  - Starting computing channels assignment.
+13:36:23,997 - INFO  - Orders computation done in 0ms
+13:36:23,997 - INFO  - Now sending orders
+13:36:23,997 - INFO  - Orders sent in 0ms
+13:37:23,996 - INFO  - Program test is currently not played.
+13:37:23,996 - INFO  - Ask for programs reassignment.
+13:37:23,997 - INFO  - Starting computing channels assignment.
+13:37:23,997 - INFO  - Orders computation done in 0ms
+13:37:23,997 - INFO  - Now sending orders
+13:37:23,997 - INFO  - Orders sent in 0ms
+13:38:23,998 - INFO  - Program test is currently not played.
+13:38:23,998 - INFO  - Ask for programs reassignment.
+13:38:23,999 - INFO  - Starting computing channels assignment.
+13:38:23,999 - INFO  - Orders computation done in 0ms
+13:38:23,999 - INFO  - Now sending orders
+13:38:23,999 - INFO  - Orders sent in 0ms
+13:39:23,998 - INFO  - Program test is currently not played.
+13:39:23,998 - INFO  - Ask for programs reassignment.
+13:39:23,999 - INFO  - Starting computing channels assignment.
+13:39:23,999 - INFO  - Orders computation done in 0ms
+13:39:23,999 - INFO  - Now sending orders
+13:39:23,999 - INFO  - Orders sent in 0ms
+13:40:23,998 - INFO  - Program test is currently not played.
+13:40:23,998 - INFO  - Ask for programs reassignment.
+13:40:23,999 - INFO  - Starting computing channels assignment.
+13:40:23,999 - INFO  - Orders computation done in 0ms
+13:40:23,999 - INFO  - Now sending orders
+13:40:23,999 - INFO  - Orders sent in 0ms
+13:41:23,999 - INFO  - Program test is currently not played.
+13:41:24,000 - INFO  - Ask for programs reassignment.
+13:41:24,000 - INFO  - Starting computing channels assignment.
+13:41:24,000 - INFO  - Orders computation done in 0ms
+13:41:24,001 - INFO  - Now sending orders
+13:41:24,001 - INFO  - Orders sent in 0ms
+13:42:23,999 - INFO  - Program test is currently not played.
+13:42:23,999 - INFO  - Ask for programs reassignment.
+13:42:23,999 - INFO  - Starting computing channels assignment.
+13:42:23,999 - INFO  - Orders computation done in 0ms
+13:42:24,000 - INFO  - Now sending orders
+13:42:24,000 - INFO  - Orders sent in 0ms
+13:43:23,999 - INFO  - Program test is currently not played.
+13:43:23,999 - INFO  - Ask for programs reassignment.
+13:43:24,000 - INFO  - Starting computing channels assignment.
+13:43:24,000 - INFO  - Orders computation done in 0ms
+13:43:24,000 - INFO  - Now sending orders
+13:43:24,000 - INFO  - Orders sent in 0ms
+13:44:24,000 - INFO  - Program test is currently not played.
+13:44:24,000 - INFO  - Ask for programs reassignment.
+13:44:24,001 - INFO  - Starting computing channels assignment.
+13:44:24,001 - INFO  - Orders computation done in 0ms
+13:44:24,001 - INFO  - Now sending orders
+13:44:24,001 - INFO  - Orders sent in 0ms
+13:45:24,001 - INFO  - Program test is currently not played.
+13:45:24,001 - INFO  - Ask for programs reassignment.
+13:45:24,002 - INFO  - Starting computing channels assignment.
+13:45:24,002 - INFO  - Orders computation done in 0ms
+13:45:24,002 - INFO  - Now sending orders
+13:45:24,002 - INFO  - Orders sent in 0ms
+13:46:24,001 - INFO  - Program test is currently not played.
+13:46:24,001 - INFO  - Ask for programs reassignment.
+13:46:24,002 - INFO  - Starting computing channels assignment.
+13:46:24,002 - INFO  - Orders computation done in 0ms
+13:46:24,002 - INFO  - Now sending orders
+13:46:24,002 - INFO  - Orders sent in 0ms
+13:47:24,001 - INFO  - Program test is currently not played.
+13:47:24,001 - INFO  - Ask for programs reassignment.
+13:47:24,002 - INFO  - Starting computing channels assignment.
+13:47:24,002 - INFO  - Orders computation done in 0ms
+13:47:24,002 - INFO  - Now sending orders
+13:47:24,002 - INFO  - Orders sent in 0ms
+13:48:24,002 - INFO  - Program test is currently not played.
+13:48:24,002 - INFO  - Ask for programs reassignment.
+13:48:24,003 - INFO  - Starting computing channels assignment.
+13:48:24,003 - INFO  - Orders computation done in 0ms
+13:48:24,003 - INFO  - Now sending orders
+13:48:24,003 - INFO  - Orders sent in 0ms
+13:49:24,002 - INFO  - Program test is currently not played.
+13:49:24,002 - INFO  - Ask for programs reassignment.
+13:49:24,003 - INFO  - Starting computing channels assignment.
+13:49:24,003 - INFO  - Orders computation done in 0ms
+13:49:24,003 - INFO  - Now sending orders
+13:49:24,003 - INFO  - Orders sent in 0ms
+13:50:24,003 - INFO  - Program test is currently not played.
+13:50:24,003 - INFO  - Ask for programs reassignment.
+13:50:24,004 - INFO  - Starting computing channels assignment.
+13:50:24,004 - INFO  - Orders computation done in 0ms
+13:50:24,004 - INFO  - Now sending orders
+13:50:24,005 - INFO  - Orders sent in 0ms
+13:51:24,003 - INFO  - Program test is currently not played.
+13:51:24,003 - INFO  - Ask for programs reassignment.
+13:51:24,003 - INFO  - Starting computing channels assignment.
+13:51:24,004 - INFO  - Orders computation done in 0ms
+13:51:24,004 - INFO  - Now sending orders
+13:51:24,004 - INFO  - Orders sent in 0ms
+13:52:24,004 - INFO  - Program test is currently not played.
+13:52:24,004 - INFO  - Ask for programs reassignment.
+13:52:24,005 - INFO  - Starting computing channels assignment.
+13:52:24,005 - INFO  - Orders computation done in 0ms
+13:52:24,005 - INFO  - Now sending orders
+13:52:24,005 - INFO  - Orders sent in 0ms
+13:53:24,004 - INFO  - Program test is currently not played.
+13:53:24,004 - INFO  - Ask for programs reassignment.
+13:53:24,005 - INFO  - Starting computing channels assignment.
+13:53:24,005 - INFO  - Orders computation done in 0ms
+13:53:24,005 - INFO  - Now sending orders
+13:53:24,005 - INFO  - Orders sent in 0ms
+13:54:24,005 - INFO  - Program test is currently not played.
+13:54:24,005 - INFO  - Ask for programs reassignment.
+13:54:24,006 - INFO  - Starting computing channels assignment.
+13:54:24,006 - INFO  - Orders computation done in 0ms
+13:54:24,006 - INFO  - Now sending orders
+13:54:24,006 - INFO  - Orders sent in 0ms
+13:55:24,005 - INFO  - Program test is currently not played.
+13:55:24,005 - INFO  - Ask for programs reassignment.
+13:55:24,006 - INFO  - Starting computing channels assignment.
+13:55:24,006 - INFO  - Orders computation done in 0ms
+13:55:24,006 - INFO  - Now sending orders
+13:55:24,006 - INFO  - Orders sent in 0ms
+13:56:24,005 - INFO  - Program test is currently not played.
+13:56:24,005 - INFO  - Ask for programs reassignment.
+13:56:24,006 - INFO  - Starting computing channels assignment.
+13:56:24,006 - INFO  - Orders computation done in 0ms
+13:56:24,006 - INFO  - Now sending orders
+13:56:24,006 - INFO  - Orders sent in 0ms
+13:57:24,006 - INFO  - Program test is currently not played.
+13:57:24,006 - INFO  - Ask for programs reassignment.
+13:57:24,007 - INFO  - Starting computing channels assignment.
+13:57:24,007 - INFO  - Orders computation done in 0ms
+13:57:24,007 - INFO  - Now sending orders
+13:57:24,007 - INFO  - Orders sent in 0ms
+13:58:24,006 - INFO  - Program test is currently not played.
+13:58:24,006 - INFO  - Ask for programs reassignment.
+13:58:24,006 - INFO  - Starting computing channels assignment.
+13:58:24,006 - INFO  - Orders computation done in 0ms
+13:58:24,007 - INFO  - Now sending orders
+13:58:24,007 - INFO  - Orders sent in 0ms
+13:59:24,007 - INFO  - Program test is currently not played.
+13:59:24,007 - INFO  - Ask for programs reassignment.
+13:59:24,007 - INFO  - Starting computing channels assignment.
+13:59:24,007 - INFO  - Orders computation done in 0ms
+13:59:24,008 - INFO  - Now sending orders
+13:59:24,008 - INFO  - Orders sent in 0ms
+14:00:24,007 - INFO  - Program test is currently not played.
+14:00:24,007 - INFO  - Ask for programs reassignment.
+14:00:24,008 - INFO  - Starting computing channels assignment.
+14:00:24,008 - INFO  - Orders computation done in 0ms
+14:00:24,008 - INFO  - Now sending orders
+14:00:24,008 - INFO  - Orders sent in 0ms
+14:01:24,008 - INFO  - Program test is currently not played.
+14:01:24,008 - INFO  - Ask for programs reassignment.
+14:01:24,009 - INFO  - Starting computing channels assignment.
+14:01:24,009 - INFO  - Orders computation done in 0ms
+14:01:24,009 - INFO  - Now sending orders
+14:01:24,009 - INFO  - Orders sent in 0ms
+14:02:24,008 - INFO  - Program test is currently not played.
+14:02:24,008 - INFO  - Ask for programs reassignment.
+14:02:24,009 - INFO  - Starting computing channels assignment.
+14:02:24,009 - INFO  - Orders computation done in 0ms
+14:02:24,009 - INFO  - Now sending orders
+14:02:24,009 - INFO  - Orders sent in 0ms
+14:03:24,008 - INFO  - Program test is currently not played.
+14:03:24,008 - INFO  - Ask for programs reassignment.
+14:03:24,009 - INFO  - Starting computing channels assignment.
+14:03:24,009 - INFO  - Orders computation done in 0ms
+14:03:24,009 - INFO  - Now sending orders
+14:03:24,009 - INFO  - Orders sent in 0ms
+14:04:24,008 - INFO  - Program test is currently not played.
+14:04:24,008 - INFO  - Ask for programs reassignment.
+14:04:24,008 - INFO  - Starting computing channels assignment.
+14:04:24,008 - INFO  - Orders computation done in 0ms
+14:04:24,009 - INFO  - Now sending orders
+14:04:24,009 - INFO  - Orders sent in 0ms
+14:05:24,017 - INFO  - Program test is currently not played.
+14:05:24,017 - INFO  - Ask for programs reassignment.
+14:05:24,019 - INFO  - Starting computing channels assignment.
+14:05:24,019 - INFO  - Orders computation done in 0ms
+14:05:24,019 - INFO  - Now sending orders
+14:05:24,019 - INFO  - Orders sent in 0ms
+14:06:24,018 - INFO  - Program test is currently not played.
+14:06:24,018 - INFO  - Ask for programs reassignment.
+14:06:24,019 - INFO  - Starting computing channels assignment.
+14:06:24,019 - INFO  - Orders computation done in 0ms
+14:06:24,019 - INFO  - Now sending orders
+14:06:24,019 - INFO  - Orders sent in 0ms
+14:07:24,019 - INFO  - Program test is currently not played.
+14:07:24,019 - INFO  - Ask for programs reassignment.
+14:07:24,020 - INFO  - Starting computing channels assignment.
+14:07:24,020 - INFO  - Orders computation done in 0ms
+14:07:24,020 - INFO  - Now sending orders
+14:07:24,020 - INFO  - Orders sent in 0ms
+14:08:24,020 - INFO  - Program test is currently not played.
+14:08:24,020 - INFO  - Ask for programs reassignment.
+14:08:24,021 - INFO  - Starting computing channels assignment.
+14:08:24,021 - INFO  - Orders computation done in 0ms
+14:08:24,021 - INFO  - Now sending orders
+14:08:24,021 - INFO  - Orders sent in 0ms
+14:09:24,019 - INFO  - Program test is currently not played.
+14:09:24,019 - INFO  - Ask for programs reassignment.
+14:09:24,020 - INFO  - Starting computing channels assignment.
+14:09:24,020 - INFO  - Orders computation done in 0ms
+14:09:24,020 - INFO  - Now sending orders
+14:09:24,020 - INFO  - Orders sent in 0ms
+14:10:24,020 - INFO  - Program test is currently not played.
+14:10:24,020 - INFO  - Ask for programs reassignment.
+14:10:24,021 - INFO  - Starting computing channels assignment.
+14:10:24,021 - INFO  - Orders computation done in 0ms
+14:10:24,021 - INFO  - Now sending orders
+14:10:24,021 - INFO  - Orders sent in 0ms
+14:11:24,021 - INFO  - Program test is currently not played.
+14:11:24,021 - INFO  - Ask for programs reassignment.
+14:11:24,022 - INFO  - Starting computing channels assignment.
+14:11:24,022 - INFO  - Orders computation done in 0ms
+14:11:24,022 - INFO  - Now sending orders
+14:11:24,023 - INFO  - Orders sent in 1ms
+14:12:24,021 - INFO  - Program test is currently not played.
+14:12:24,021 - INFO  - Ask for programs reassignment.
+14:12:24,022 - INFO  - Starting computing channels assignment.
+14:12:24,022 - INFO  - Orders computation done in 0ms
+14:12:24,022 - INFO  - Now sending orders
+14:12:24,022 - INFO  - Orders sent in 0ms
+14:13:24,022 - INFO  - Program test is currently not played.
+14:13:24,022 - INFO  - Ask for programs reassignment.
+14:13:24,023 - INFO  - Starting computing channels assignment.
+14:13:24,023 - INFO  - Orders computation done in 0ms
+14:13:24,023 - INFO  - Now sending orders
+14:13:24,023 - INFO  - Orders sent in 0ms
+14:14:24,022 - INFO  - Program test is currently not played.
+14:14:24,022 - INFO  - Ask for programs reassignment.
+14:14:24,023 - INFO  - Starting computing channels assignment.
+14:14:24,023 - INFO  - Orders computation done in 0ms
+14:14:24,023 - INFO  - Now sending orders
+14:14:24,023 - INFO  - Orders sent in 0ms
+14:15:24,023 - INFO  - Program test is currently not played.
+14:15:24,023 - INFO  - Ask for programs reassignment.
+14:15:24,023 - INFO  - Starting computing channels assignment.
+14:15:24,024 - INFO  - Orders computation done in 0ms
+14:15:24,024 - INFO  - Now sending orders
+14:15:24,024 - INFO  - Orders sent in 0ms
+14:16:24,023 - INFO  - Program test is currently not played.
+14:16:24,023 - INFO  - Ask for programs reassignment.
+14:16:24,025 - INFO  - Starting computing channels assignment.
+14:16:24,025 - INFO  - Orders computation done in 0ms
+14:16:24,025 - INFO  - Now sending orders
+14:16:24,025 - INFO  - Orders sent in 0ms
+14:17:24,023 - INFO  - Program test is currently not played.
+14:17:24,023 - INFO  - Ask for programs reassignment.
+14:17:24,024 - INFO  - Starting computing channels assignment.
+14:17:24,024 - INFO  - Orders computation done in 0ms
+14:17:24,024 - INFO  - Now sending orders
+14:17:24,024 - INFO  - Orders sent in 0ms
+14:18:24,024 - INFO  - Program test is currently not played.
+14:18:24,024 - INFO  - Ask for programs reassignment.
+14:18:24,025 - INFO  - Starting computing channels assignment.
+14:18:24,025 - INFO  - Orders computation done in 0ms
+14:18:24,025 - INFO  - Now sending orders
+14:18:24,025 - INFO  - Orders sent in 0ms
+14:19:24,024 - INFO  - Program test is currently not played.
+14:19:24,024 - INFO  - Ask for programs reassignment.
+14:19:24,025 - INFO  - Starting computing channels assignment.
+14:19:24,025 - INFO  - Orders computation done in 0ms
+14:19:24,025 - INFO  - Now sending orders
+14:19:24,026 - INFO  - Orders sent in 0ms
+14:20:24,025 - INFO  - Program test is currently not played.
+14:20:24,025 - INFO  - Ask for programs reassignment.
+14:20:24,026 - INFO  - Starting computing channels assignment.
+14:20:24,026 - INFO  - Orders computation done in 0ms
+14:20:24,026 - INFO  - Now sending orders
+14:20:24,027 - INFO  - Orders sent in 1ms
+14:21:24,025 - INFO  - Program test is currently not played.
+14:21:24,026 - INFO  - Ask for programs reassignment.
+14:21:24,026 - INFO  - Starting computing channels assignment.
+14:21:24,026 - INFO  - Orders computation done in 0ms
+14:21:24,027 - INFO  - Now sending orders
+14:21:24,027 - INFO  - Orders sent in 0ms
+14:22:24,026 - INFO  - Program test is currently not played.
+14:22:24,026 - INFO  - Ask for programs reassignment.
+14:22:24,027 - INFO  - Starting computing channels assignment.
+14:22:24,027 - INFO  - Orders computation done in 0ms
+14:22:24,027 - INFO  - Now sending orders
+14:22:24,027 - INFO  - Orders sent in 0ms
+14:23:24,026 - INFO  - Program test is currently not played.
+14:23:24,026 - INFO  - Ask for programs reassignment.
+14:23:24,027 - INFO  - Starting computing channels assignment.
+14:23:24,027 - INFO  - Orders computation done in 0ms
+14:23:24,027 - INFO  - Now sending orders
+14:23:24,027 - INFO  - Orders sent in 0ms
+14:24:24,026 - INFO  - Program test is currently not played.
+14:24:24,026 - INFO  - Ask for programs reassignment.
+14:24:24,027 - INFO  - Starting computing channels assignment.
+14:24:24,027 - INFO  - Orders computation done in 0ms
+14:24:24,027 - INFO  - Now sending orders
+14:24:24,027 - INFO  - Orders sent in 0ms
+14:25:24,027 - INFO  - Program test is currently not played.
+14:25:24,027 - INFO  - Ask for programs reassignment.
+14:25:24,028 - INFO  - Starting computing channels assignment.
+14:25:24,028 - INFO  - Orders computation done in 0ms
+14:25:24,028 - INFO  - Now sending orders
+14:25:24,028 - INFO  - Orders sent in 0ms
+14:26:24,027 - INFO  - Program test is currently not played.
+14:26:24,027 - INFO  - Ask for programs reassignment.
+14:26:24,028 - INFO  - Starting computing channels assignment.
+14:26:24,028 - INFO  - Orders computation done in 0ms
+14:26:24,028 - INFO  - Now sending orders
+14:26:24,028 - INFO  - Orders sent in 0ms
+14:27:24,028 - INFO  - Program test is currently not played.
+14:27:24,028 - INFO  - Ask for programs reassignment.
+14:27:24,029 - INFO  - Starting computing channels assignment.
+14:27:24,029 - INFO  - Orders computation done in 0ms
+14:27:24,029 - INFO  - Now sending orders
+14:27:24,029 - INFO  - Orders sent in 0ms
+14:28:24,028 - INFO  - Program test is currently not played.
+14:28:24,028 - INFO  - Ask for programs reassignment.
+14:28:24,029 - INFO  - Starting computing channels assignment.
+14:28:24,029 - INFO  - Orders computation done in 0ms
+14:28:24,029 - INFO  - Now sending orders
+14:28:24,030 - INFO  - Orders sent in 0ms
+14:29:24,029 - INFO  - Program test is currently not played.
+14:29:24,029 - INFO  - Ask for programs reassignment.
+14:29:24,030 - INFO  - Starting computing channels assignment.
+14:29:24,030 - INFO  - Orders computation done in 0ms
+14:29:24,030 - INFO  - Now sending orders
+14:29:24,030 - INFO  - Orders sent in 0ms
+14:30:24,029 - INFO  - Program test is currently not played.
+14:30:24,029 - INFO  - Ask for programs reassignment.
+14:30:24,030 - INFO  - Starting computing channels assignment.
+14:30:24,030 - INFO  - Orders computation done in 0ms
+14:30:24,030 - INFO  - Now sending orders
+14:30:24,030 - INFO  - Orders sent in 0ms
+14:31:24,029 - INFO  - Program test is currently not played.
+14:31:24,029 - INFO  - Ask for programs reassignment.
+14:31:24,030 - INFO  - Starting computing channels assignment.
+14:31:24,030 - INFO  - Orders computation done in 0ms
+14:31:24,030 - INFO  - Now sending orders
+14:31:24,030 - INFO  - Orders sent in 0ms
+14:32:24,030 - INFO  - Program test is currently not played.
+14:32:24,030 - INFO  - Ask for programs reassignment.
+14:32:24,031 - INFO  - Starting computing channels assignment.
+14:32:24,031 - INFO  - Orders computation done in 0ms
+14:32:24,031 - INFO  - Now sending orders
+14:32:24,031 - INFO  - Orders sent in 0ms
+14:33:24,030 - INFO  - Program test is currently not played.
+14:33:24,030 - INFO  - Ask for programs reassignment.
+14:33:24,031 - INFO  - Starting computing channels assignment.
+14:33:24,031 - INFO  - Orders computation done in 0ms
+14:33:24,031 - INFO  - Now sending orders
+14:33:24,031 - INFO  - Orders sent in 0ms
+14:34:24,031 - INFO  - Program test is currently not played.
+14:34:24,031 - INFO  - Ask for programs reassignment.
+14:34:24,032 - INFO  - Starting computing channels assignment.
+14:34:24,032 - INFO  - Orders computation done in 0ms
+14:34:24,032 - INFO  - Now sending orders
+14:34:24,032 - INFO  - Orders sent in 0ms
+14:35:24,031 - INFO  - Program test is currently not played.
+14:35:24,031 - INFO  - Ask for programs reassignment.
+14:35:24,032 - INFO  - Starting computing channels assignment.
+14:35:24,032 - INFO  - Orders computation done in 0ms
+14:35:24,032 - INFO  - Now sending orders
+14:35:24,032 - INFO  - Orders sent in 0ms
+14:36:24,032 - INFO  - Program test is currently not played.
+14:36:24,032 - INFO  - Ask for programs reassignment.
+14:36:24,032 - INFO  - Starting computing channels assignment.
+14:36:24,033 - INFO  - Orders computation done in 0ms
+14:36:24,033 - INFO  - Now sending orders
+14:36:24,033 - INFO  - Orders sent in 0ms
+14:37:24,032 - INFO  - Program test is currently not played.
+14:37:24,032 - INFO  - Ask for programs reassignment.
+14:37:24,033 - INFO  - Starting computing channels assignment.
+14:37:24,033 - INFO  - Orders computation done in 0ms
+14:37:24,033 - INFO  - Now sending orders
+14:37:24,033 - INFO  - Orders sent in 0ms
+14:38:24,033 - INFO  - Program test is currently not played.
+14:38:24,033 - INFO  - Ask for programs reassignment.
+14:38:24,034 - INFO  - Starting computing channels assignment.
+14:38:24,034 - INFO  - Orders computation done in 0ms
+14:38:24,034 - INFO  - Now sending orders
+14:38:24,034 - INFO  - Orders sent in 0ms
+14:39:24,033 - INFO  - Program test is currently not played.
+14:39:24,033 - INFO  - Ask for programs reassignment.
+14:39:24,034 - INFO  - Starting computing channels assignment.
+14:39:24,034 - INFO  - Orders computation done in 0ms
+14:39:24,034 - INFO  - Now sending orders
+14:39:24,034 - INFO  - Orders sent in 0ms
+14:40:24,032 - INFO  - Program test is currently not played.
+14:40:24,032 - INFO  - Ask for programs reassignment.
+14:40:24,033 - INFO  - Starting computing channels assignment.
+14:40:24,033 - INFO  - Orders computation done in 0ms
+14:40:24,033 - INFO  - Now sending orders
+14:40:24,033 - INFO  - Orders sent in 0ms
+14:41:24,034 - INFO  - Program test is currently not played.
+14:41:24,034 - INFO  - Ask for programs reassignment.
+14:41:24,035 - INFO  - Starting computing channels assignment.
+14:41:24,035 - INFO  - Orders computation done in 0ms
+14:41:24,035 - INFO  - Now sending orders
+14:41:24,035 - INFO  - Orders sent in 0ms
+14:42:24,033 - INFO  - Program test is currently not played.
+14:42:24,033 - INFO  - Ask for programs reassignment.
+14:42:24,034 - INFO  - Starting computing channels assignment.
+14:42:24,034 - INFO  - Orders computation done in 0ms
+14:42:24,034 - INFO  - Now sending orders
+14:42:24,034 - INFO  - Orders sent in 0ms
+14:43:24,034 - INFO  - Program test is currently not played.
+14:43:24,034 - INFO  - Ask for programs reassignment.
+14:43:24,035 - INFO  - Starting computing channels assignment.
+14:43:24,035 - INFO  - Orders computation done in 0ms
+14:43:24,035 - INFO  - Now sending orders
+14:43:24,035 - INFO  - Orders sent in 0ms
+14:44:24,035 - INFO  - Program test is currently not played.
+14:44:24,036 - INFO  - Ask for programs reassignment.
+14:44:24,039 - INFO  - Starting computing channels assignment.
+14:44:24,040 - INFO  - Orders computation done in 1ms
+14:44:24,040 - INFO  - Now sending orders
+14:44:24,041 - INFO  - Orders sent in 0ms
+14:45:24,036 - INFO  - Program test is currently not played.
+14:45:24,036 - INFO  - Ask for programs reassignment.
+14:45:24,037 - INFO  - Starting computing channels assignment.
+14:45:24,037 - INFO  - Orders computation done in 0ms
+14:45:24,037 - INFO  - Now sending orders
+14:45:24,037 - INFO  - Orders sent in 0ms
+14:46:24,036 - INFO  - Program test is currently not played.
+14:46:24,036 - INFO  - Ask for programs reassignment.
+14:46:24,037 - INFO  - Starting computing channels assignment.
+14:46:24,037 - INFO  - Orders computation done in 0ms
+14:46:24,037 - INFO  - Now sending orders
+14:46:24,037 - INFO  - Orders sent in 0ms
+14:47:24,036 - INFO  - Program test is currently not played.
+14:47:24,036 - INFO  - Ask for programs reassignment.
+14:47:24,037 - INFO  - Starting computing channels assignment.
+14:47:24,037 - INFO  - Orders computation done in 0ms
+14:47:24,037 - INFO  - Now sending orders
+14:47:24,037 - INFO  - Orders sent in 0ms
+14:48:24,037 - INFO  - Program test is currently not played.
+14:48:24,037 - INFO  - Ask for programs reassignment.
+14:48:24,038 - INFO  - Starting computing channels assignment.
+14:48:24,038 - INFO  - Orders computation done in 0ms
+14:48:24,038 - INFO  - Now sending orders
+14:48:24,038 - INFO  - Orders sent in 0ms
+14:49:24,037 - INFO  - Program test is currently not played.
+14:49:24,037 - INFO  - Ask for programs reassignment.
+14:49:24,038 - INFO  - Starting computing channels assignment.
+14:49:24,038 - INFO  - Orders computation done in 0ms
+14:49:24,038 - INFO  - Now sending orders
+14:49:24,038 - INFO  - Orders sent in 0ms
+14:50:24,038 - INFO  - Program test is currently not played.
+14:50:24,038 - INFO  - Ask for programs reassignment.
+14:50:24,039 - INFO  - Starting computing channels assignment.
+14:50:24,039 - INFO  - Orders computation done in 0ms
+14:50:24,039 - INFO  - Now sending orders
+14:50:24,039 - INFO  - Orders sent in 0ms
+14:51:24,038 - INFO  - Program test is currently not played.
+14:51:24,038 - INFO  - Ask for programs reassignment.
+14:51:24,039 - INFO  - Starting computing channels assignment.
+14:51:24,039 - INFO  - Orders computation done in 0ms
+14:51:24,039 - INFO  - Now sending orders
+14:51:24,039 - INFO  - Orders sent in 0ms
+14:52:24,039 - INFO  - Program test is currently not played.
+14:52:24,039 - INFO  - Ask for programs reassignment.
+14:52:24,039 - INFO  - Starting computing channels assignment.
+14:52:24,040 - INFO  - Orders computation done in 0ms
+14:52:24,040 - INFO  - Now sending orders
+14:52:24,040 - INFO  - Orders sent in 0ms
+14:53:24,038 - INFO  - Program test is currently not played.
+14:53:24,038 - INFO  - Ask for programs reassignment.
+14:53:24,039 - INFO  - Starting computing channels assignment.
+14:53:24,039 - INFO  - Orders computation done in 0ms
+14:53:24,039 - INFO  - Now sending orders
+14:53:24,039 - INFO  - Orders sent in 0ms
+14:54:24,039 - INFO  - Program test is currently not played.
+14:54:24,039 - INFO  - Ask for programs reassignment.
+14:54:24,040 - INFO  - Starting computing channels assignment.
+14:54:24,040 - INFO  - Orders computation done in 0ms
+14:54:24,040 - INFO  - Now sending orders
+14:54:24,041 - INFO  - Orders sent in 0ms
+14:55:24,040 - INFO  - Program test is currently not played.
+14:55:24,040 - INFO  - Ask for programs reassignment.
+14:55:24,041 - INFO  - Starting computing channels assignment.
+14:55:24,041 - INFO  - Orders computation done in 0ms
+14:55:24,041 - INFO  - Now sending orders
+14:55:24,041 - INFO  - Orders sent in 0ms
+14:56:24,040 - INFO  - Program test is currently not played.
+14:56:24,040 - INFO  - Ask for programs reassignment.
+14:56:24,040 - INFO  - Starting computing channels assignment.
+14:56:24,041 - INFO  - Orders computation done in 0ms
+14:56:24,041 - INFO  - Now sending orders
+14:56:24,041 - INFO  - Orders sent in 0ms
+14:57:24,041 - INFO  - Program test is currently not played.
+14:57:24,041 - INFO  - Ask for programs reassignment.
+14:57:24,042 - INFO  - Starting computing channels assignment.
+14:57:24,042 - INFO  - Orders computation done in 0ms
+14:57:24,042 - INFO  - Now sending orders
+14:57:24,042 - INFO  - Orders sent in 0ms
+14:58:24,041 - INFO  - Program test is currently not played.
+14:58:24,041 - INFO  - Ask for programs reassignment.
+14:58:24,042 - INFO  - Starting computing channels assignment.
+14:58:24,042 - INFO  - Orders computation done in 0ms
+14:58:24,042 - INFO  - Now sending orders
+14:58:24,042 - INFO  - Orders sent in 0ms
+14:59:24,042 - INFO  - Program test is currently not played.
+14:59:24,042 - INFO  - Ask for programs reassignment.
+14:59:24,043 - INFO  - Starting computing channels assignment.
+14:59:24,043 - INFO  - Orders computation done in 0ms
+14:59:24,043 - INFO  - Now sending orders
+14:59:24,043 - INFO  - Orders sent in 0ms
+15:00:24,042 - INFO  - Program test is currently not played.
+15:00:24,042 - INFO  - Ask for programs reassignment.
+15:00:24,043 - INFO  - Starting computing channels assignment.
+15:00:24,043 - INFO  - Orders computation done in 0ms
+15:00:24,043 - INFO  - Now sending orders
+15:00:24,043 - INFO  - Orders sent in 0ms
+15:01:24,042 - INFO  - Program test is currently not played.
+15:01:24,042 - INFO  - Ask for programs reassignment.
+15:01:24,043 - INFO  - Starting computing channels assignment.
+15:01:24,043 - INFO  - Orders computation done in 0ms
+15:01:24,043 - INFO  - Now sending orders
+15:01:24,044 - INFO  - Orders sent in 0ms
+15:02:24,043 - INFO  - Program test is currently not played.
+15:02:24,043 - INFO  - Ask for programs reassignment.
+15:02:24,044 - INFO  - Starting computing channels assignment.
+15:02:24,044 - INFO  - Orders computation done in 0ms
+15:02:24,044 - INFO  - Now sending orders
+15:02:24,044 - INFO  - Orders sent in 0ms
+15:03:24,043 - INFO  - Program test is currently not played.
+15:03:24,043 - INFO  - Ask for programs reassignment.
+15:03:24,044 - INFO  - Starting computing channels assignment.
+15:03:24,044 - INFO  - Orders computation done in 0ms
+15:03:24,044 - INFO  - Now sending orders
+15:03:24,044 - INFO  - Orders sent in 0ms
+15:04:24,044 - INFO  - Program test is currently not played.
+15:04:24,044 - INFO  - Ask for programs reassignment.
+15:04:24,044 - INFO  - Starting computing channels assignment.
+15:04:24,044 - INFO  - Orders computation done in 0ms
+15:04:24,045 - INFO  - Now sending orders
+15:04:24,045 - INFO  - Orders sent in 0ms
+15:05:24,044 - INFO  - Program test is currently not played.
+15:05:24,044 - INFO  - Ask for programs reassignment.
+15:05:24,045 - INFO  - Starting computing channels assignment.
+15:05:24,045 - INFO  - Orders computation done in 0ms
+15:05:24,045 - INFO  - Now sending orders
+15:05:24,045 - INFO  - Orders sent in 0ms
+15:06:24,045 - INFO  - Program test is currently not played.
+15:06:24,045 - INFO  - Ask for programs reassignment.
+15:06:24,046 - INFO  - Starting computing channels assignment.
+15:06:24,046 - INFO  - Orders computation done in 0ms
+15:06:24,046 - INFO  - Now sending orders
+15:06:24,046 - INFO  - Orders sent in 0ms
+15:07:24,045 - INFO  - Program test is currently not played.
+15:07:24,045 - INFO  - Ask for programs reassignment.
+15:07:24,046 - INFO  - Starting computing channels assignment.
+15:07:24,046 - INFO  - Orders computation done in 0ms
+15:07:24,046 - INFO  - Now sending orders
+15:07:24,046 - INFO  - Orders sent in 0ms
+15:08:24,045 - INFO  - Program test is currently not played.
+15:08:24,045 - INFO  - Ask for programs reassignment.
+15:08:24,046 - INFO  - Starting computing channels assignment.
+15:08:24,046 - INFO  - Orders computation done in 0ms
+15:08:24,046 - INFO  - Now sending orders
+15:08:24,046 - INFO  - Orders sent in 0ms
+15:09:24,047 - INFO  - Program test is currently not played.
+15:09:24,047 - INFO  - Ask for programs reassignment.
+15:09:24,048 - INFO  - Starting computing channels assignment.
+15:09:24,048 - INFO  - Orders computation done in 0ms
+15:09:24,048 - INFO  - Now sending orders
+15:09:24,048 - INFO  - Orders sent in 0ms
+15:10:24,047 - INFO  - Program test is currently not played.
+15:10:24,047 - INFO  - Ask for programs reassignment.
+15:10:24,048 - INFO  - Starting computing channels assignment.
+15:10:24,048 - INFO  - Orders computation done in 0ms
+15:10:24,048 - INFO  - Now sending orders
+15:10:24,048 - INFO  - Orders sent in 0ms
+15:11:24,048 - INFO  - Program test is currently not played.
+15:11:24,048 - INFO  - Ask for programs reassignment.
+15:11:24,049 - INFO  - Starting computing channels assignment.
+15:11:24,049 - INFO  - Orders computation done in 0ms
+15:11:24,049 - INFO  - Now sending orders
+15:11:24,049 - INFO  - Orders sent in 0ms
+15:12:24,048 - INFO  - Program test is currently not played.
+15:12:24,048 - INFO  - Ask for programs reassignment.
+15:12:24,049 - INFO  - Starting computing channels assignment.
+15:12:24,049 - INFO  - Orders computation done in 0ms
+15:12:24,049 - INFO  - Now sending orders
+15:12:24,049 - INFO  - Orders sent in 0ms
+15:13:24,048 - INFO  - Program test is currently not played.
+15:13:24,048 - INFO  - Ask for programs reassignment.
+15:13:24,049 - INFO  - Starting computing channels assignment.
+15:13:24,049 - INFO  - Orders computation done in 0ms
+15:13:24,049 - INFO  - Now sending orders
+15:13:24,050 - INFO  - Orders sent in 0ms
+15:14:24,049 - INFO  - Program test is currently not played.
+15:14:24,049 - INFO  - Ask for programs reassignment.
+15:14:24,050 - INFO  - Starting computing channels assignment.
+15:14:24,050 - INFO  - Orders computation done in 0ms
+15:14:24,050 - INFO  - Now sending orders
+15:14:24,051 - INFO  - Orders sent in 0ms
+15:15:24,049 - INFO  - Program test is currently not played.
+15:15:24,049 - INFO  - Ask for programs reassignment.
+15:15:24,050 - INFO  - Starting computing channels assignment.
+15:15:24,050 - INFO  - Orders computation done in 0ms
+15:15:24,050 - INFO  - Now sending orders
+15:15:24,050 - INFO  - Orders sent in 0ms
+15:16:24,052 - INFO  - Program test is currently not played.
+15:16:24,052 - INFO  - Ask for programs reassignment.
+15:16:24,053 - INFO  - Starting computing channels assignment.
+15:16:24,053 - INFO  - Orders computation done in 0ms
+15:16:24,053 - INFO  - Now sending orders
+15:16:24,053 - INFO  - Orders sent in 0ms
+15:17:24,052 - INFO  - Program test is currently not played.
+15:17:24,052 - INFO  - Ask for programs reassignment.
+15:17:24,053 - INFO  - Starting computing channels assignment.
+15:17:24,053 - INFO  - Orders computation done in 0ms
+15:17:24,053 - INFO  - Now sending orders
+15:17:24,054 - INFO  - Orders sent in 0ms
+15:18:24,053 - INFO  - Program test is currently not played.
+15:18:24,053 - INFO  - Ask for programs reassignment.
+15:18:24,054 - INFO  - Starting computing channels assignment.
+15:18:24,054 - INFO  - Orders computation done in 0ms
+15:18:24,054 - INFO  - Now sending orders
+15:18:24,055 - INFO  - Orders sent in 0ms
+15:19:24,053 - INFO  - Program test is currently not played.
+15:19:24,053 - INFO  - Ask for programs reassignment.
+15:19:24,054 - INFO  - Starting computing channels assignment.
+15:19:24,054 - INFO  - Orders computation done in 0ms
+15:19:24,054 - INFO  - Now sending orders
+15:19:24,054 - INFO  - Orders sent in 0ms
+15:20:24,054 - INFO  - Program test is currently not played.
+15:20:24,054 - INFO  - Ask for programs reassignment.
+15:20:24,055 - INFO  - Starting computing channels assignment.
+15:20:24,055 - INFO  - Orders computation done in 0ms
+15:20:24,055 - INFO  - Now sending orders
+15:20:24,056 - INFO  - Orders sent in 0ms
+15:21:24,054 - INFO  - Program test is currently not played.
+15:21:24,054 - INFO  - Ask for programs reassignment.
+15:21:24,056 - INFO  - Starting computing channels assignment.
+15:21:24,056 - INFO  - Orders computation done in 0ms
+15:21:24,056 - INFO  - Now sending orders
+15:21:24,056 - INFO  - Orders sent in 0ms
+15:22:24,055 - INFO  - Program test is currently not played.
+15:22:24,055 - INFO  - Ask for programs reassignment.
+15:22:24,056 - INFO  - Starting computing channels assignment.
+15:22:24,056 - INFO  - Orders computation done in 0ms
+15:22:24,056 - INFO  - Now sending orders
+15:22:24,056 - INFO  - Orders sent in 0ms
+15:23:24,055 - INFO  - Program test is currently not played.
+15:23:24,055 - INFO  - Ask for programs reassignment.
+15:23:24,056 - INFO  - Starting computing channels assignment.
+15:23:24,056 - INFO  - Orders computation done in 0ms
+15:23:24,056 - INFO  - Now sending orders
+15:23:24,056 - INFO  - Orders sent in 0ms
+15:24:24,055 - INFO  - Program test is currently not played.
+15:24:24,055 - INFO  - Ask for programs reassignment.
+15:24:24,056 - INFO  - Starting computing channels assignment.
+15:24:24,056 - INFO  - Orders computation done in 0ms
+15:24:24,056 - INFO  - Now sending orders
+15:24:24,056 - INFO  - Orders sent in 0ms
+15:25:24,056 - INFO  - Program test is currently not played.
+15:25:24,056 - INFO  - Ask for programs reassignment.
+15:25:24,057 - INFO  - Starting computing channels assignment.
+15:25:24,057 - INFO  - Orders computation done in 0ms
+15:25:24,057 - INFO  - Now sending orders
+15:25:24,057 - INFO  - Orders sent in 0ms
+15:26:24,056 - INFO  - Program test is currently not played.
+15:26:24,056 - INFO  - Ask for programs reassignment.
+15:26:24,057 - INFO  - Starting computing channels assignment.
+15:26:24,057 - INFO  - Orders computation done in 0ms
+15:26:24,057 - INFO  - Now sending orders
+15:26:24,057 - INFO  - Orders sent in 0ms
+15:27:24,057 - INFO  - Program test is currently not played.
+15:27:24,057 - INFO  - Ask for programs reassignment.
+15:27:24,058 - INFO  - Starting computing channels assignment.
+15:27:24,058 - INFO  - Orders computation done in 0ms
+15:27:24,058 - INFO  - Now sending orders
+15:27:24,058 - INFO  - Orders sent in 0ms
+15:28:24,057 - INFO  - Program test is currently not played.
+15:28:24,057 - INFO  - Ask for programs reassignment.
+15:28:24,058 - INFO  - Starting computing channels assignment.
+15:28:24,058 - INFO  - Orders computation done in 0ms
+15:28:24,058 - INFO  - Now sending orders
+15:28:24,058 - INFO  - Orders sent in 0ms
+15:29:24,058 - INFO  - Program test is currently not played.
+15:29:24,058 - INFO  - Ask for programs reassignment.
+15:29:24,059 - INFO  - Starting computing channels assignment.
+15:29:24,059 - INFO  - Orders computation done in 0ms
+15:29:24,059 - INFO  - Now sending orders
+15:29:24,059 - INFO  - Orders sent in 0ms
+15:30:24,058 - INFO  - Program test is currently not played.
+15:30:24,058 - INFO  - Ask for programs reassignment.
+15:30:24,059 - INFO  - Starting computing channels assignment.
+15:30:24,059 - INFO  - Orders computation done in 0ms
+15:30:24,059 - INFO  - Now sending orders
+15:30:24,059 - INFO  - Orders sent in 0ms
+15:31:24,058 - INFO  - Program test is currently not played.
+15:31:24,058 - INFO  - Ask for programs reassignment.
+15:31:24,066 - INFO  - Starting computing channels assignment.
+15:31:24,066 - INFO  - Orders computation done in 0ms
+15:31:24,066 - INFO  - Now sending orders
+15:31:24,067 - INFO  - Orders sent in 0ms
+15:32:24,059 - INFO  - Program test is currently not played.
+15:32:24,059 - INFO  - Ask for programs reassignment.
+15:32:24,060 - INFO  - Starting computing channels assignment.
+15:32:24,060 - INFO  - Orders computation done in 0ms
+15:32:24,060 - INFO  - Now sending orders
+15:32:24,060 - INFO  - Orders sent in 0ms
+15:33:24,059 - INFO  - Program test is currently not played.
+15:33:24,059 - INFO  - Ask for programs reassignment.
+15:33:24,060 - INFO  - Starting computing channels assignment.
+15:33:24,060 - INFO  - Orders computation done in 0ms
+15:33:24,060 - INFO  - Now sending orders
+15:33:24,060 - INFO  - Orders sent in 0ms
+15:34:24,060 - INFO  - Program test is currently not played.
+15:34:24,060 - INFO  - Ask for programs reassignment.
+15:34:24,061 - INFO  - Starting computing channels assignment.
+15:34:24,061 - INFO  - Orders computation done in 0ms
+15:34:24,061 - INFO  - Now sending orders
+15:34:24,061 - INFO  - Orders sent in 0ms
+15:35:24,060 - INFO  - Program test is currently not played.
+15:35:24,060 - INFO  - Ask for programs reassignment.
+15:35:24,061 - INFO  - Starting computing channels assignment.
+15:35:24,061 - INFO  - Orders computation done in 0ms
+15:35:24,061 - INFO  - Now sending orders
+15:35:24,061 - INFO  - Orders sent in 0ms
+15:36:24,061 - INFO  - Program test is currently not played.
+15:36:24,061 - INFO  - Ask for programs reassignment.
+15:36:24,062 - INFO  - Starting computing channels assignment.
+15:36:24,062 - INFO  - Orders computation done in 0ms
+15:36:24,062 - INFO  - Now sending orders
+15:36:24,062 - INFO  - Orders sent in 0ms
+15:37:24,061 - INFO  - Program test is currently not played.
+15:37:24,061 - INFO  - Ask for programs reassignment.
+15:37:24,062 - INFO  - Starting computing channels assignment.
+15:37:24,062 - INFO  - Orders computation done in 0ms
+15:37:24,062 - INFO  - Now sending orders
+15:37:24,062 - INFO  - Orders sent in 0ms
+15:38:24,061 - INFO  - Program test is currently not played.
+15:38:24,061 - INFO  - Ask for programs reassignment.
+15:38:24,061 - INFO  - Starting computing channels assignment.
+15:38:24,062 - INFO  - Orders computation done in 0ms
+15:38:24,062 - INFO  - Now sending orders
+15:38:24,062 - INFO  - Orders sent in 0ms
+15:39:24,062 - INFO  - Program test is currently not played.
+15:39:24,062 - INFO  - Ask for programs reassignment.
+15:39:24,063 - INFO  - Starting computing channels assignment.
+15:39:24,063 - INFO  - Orders computation done in 0ms
+15:39:24,063 - INFO  - Now sending orders
+15:39:24,064 - INFO  - Orders sent in 0ms
+15:40:24,062 - INFO  - Program test is currently not played.
+15:40:24,062 - INFO  - Ask for programs reassignment.
+15:40:24,063 - INFO  - Starting computing channels assignment.
+15:40:24,063 - INFO  - Orders computation done in 0ms
+15:40:24,063 - INFO  - Now sending orders
+15:40:24,064 - INFO  - Orders sent in 0ms
+15:41:24,063 - INFO  - Program test is currently not played.
+15:41:24,063 - INFO  - Ask for programs reassignment.
+15:41:24,064 - INFO  - Starting computing channels assignment.
+15:41:24,065 - INFO  - Orders computation done in 0ms
+15:41:24,065 - INFO  - Now sending orders
+15:41:24,066 - INFO  - Orders sent in 0ms
+15:42:24,063 - INFO  - Program test is currently not played.
+15:42:24,063 - INFO  - Ask for programs reassignment.
+15:42:24,064 - INFO  - Starting computing channels assignment.
+15:42:24,064 - INFO  - Orders computation done in 0ms
+15:42:24,064 - INFO  - Now sending orders
+15:42:24,064 - INFO  - Orders sent in 0ms
+15:43:24,064 - INFO  - Program test is currently not played.
+15:43:24,064 - INFO  - Ask for programs reassignment.
+15:43:24,065 - INFO  - Starting computing channels assignment.
+15:43:24,065 - INFO  - Orders computation done in 0ms
+15:43:24,065 - INFO  - Now sending orders
+15:43:24,065 - INFO  - Orders sent in 0ms
+15:44:24,064 - INFO  - Program test is currently not played.
+15:44:24,064 - INFO  - Ask for programs reassignment.
+15:44:24,065 - INFO  - Starting computing channels assignment.
+15:44:24,065 - INFO  - Orders computation done in 0ms
+15:44:24,065 - INFO  - Now sending orders
+15:44:24,065 - INFO  - Orders sent in 0ms
+15:45:24,064 - INFO  - Program test is currently not played.
+15:45:24,064 - INFO  - Ask for programs reassignment.
+15:45:24,065 - INFO  - Starting computing channels assignment.
+15:45:24,066 - INFO  - Orders computation done in 0ms
+15:45:24,066 - INFO  - Now sending orders
+15:45:24,066 - INFO  - Orders sent in 0ms
+15:46:24,065 - INFO  - Program test is currently not played.
+15:46:24,065 - INFO  - Ask for programs reassignment.
+15:46:24,066 - INFO  - Starting computing channels assignment.
+15:46:24,066 - INFO  - Orders computation done in 0ms
+15:46:24,066 - INFO  - Now sending orders
+15:46:24,066 - INFO  - Orders sent in 0ms
+15:47:24,065 - INFO  - Program test is currently not played.
+15:47:24,065 - INFO  - Ask for programs reassignment.
+15:47:24,066 - INFO  - Starting computing channels assignment.
+15:47:24,066 - INFO  - Orders computation done in 0ms
+15:47:24,066 - INFO  - Now sending orders
+15:47:24,066 - INFO  - Orders sent in 0ms
+15:48:24,066 - INFO  - Program test is currently not played.
+15:48:24,066 - INFO  - Ask for programs reassignment.
+15:48:24,067 - INFO  - Starting computing channels assignment.
+15:48:24,067 - INFO  - Orders computation done in 0ms
+15:48:24,067 - INFO  - Now sending orders
+15:48:24,067 - INFO  - Orders sent in 0ms
+15:49:24,066 - INFO  - Program test is currently not played.
+15:49:24,066 - INFO  - Ask for programs reassignment.
+15:49:24,066 - INFO  - Starting computing channels assignment.
+15:49:24,067 - INFO  - Orders computation done in 0ms
+15:49:24,067 - INFO  - Now sending orders
+15:49:24,067 - INFO  - Orders sent in 0ms
+15:50:24,067 - INFO  - Program test is currently not played.
+15:50:24,067 - INFO  - Ask for programs reassignment.
+15:50:24,068 - INFO  - Starting computing channels assignment.
+15:50:24,068 - INFO  - Orders computation done in 0ms
+15:50:24,068 - INFO  - Now sending orders
+15:50:24,068 - INFO  - Orders sent in 0ms
+15:51:24,066 - INFO  - Program test is currently not played.
+15:51:24,066 - INFO  - Ask for programs reassignment.
+15:51:24,066 - INFO  - Starting computing channels assignment.
+15:51:24,067 - INFO  - Orders computation done in 1ms
+15:51:24,067 - INFO  - Now sending orders
+15:51:24,067 - INFO  - Orders sent in 0ms
+15:52:24,067 - INFO  - Program test is currently not played.
+15:52:24,067 - INFO  - Ask for programs reassignment.
+15:52:24,068 - INFO  - Starting computing channels assignment.
+15:52:24,068 - INFO  - Orders computation done in 0ms
+15:52:24,068 - INFO  - Now sending orders
+15:52:24,068 - INFO  - Orders sent in 0ms
+15:53:24,068 - INFO  - Program test is currently not played.
+15:53:24,068 - INFO  - Ask for programs reassignment.
+15:53:24,068 - INFO  - Starting computing channels assignment.
+15:53:24,069 - INFO  - Orders computation done in 1ms
+15:53:24,069 - INFO  - Now sending orders
+15:53:24,069 - INFO  - Orders sent in 0ms
+15:54:24,068 - INFO  - Program test is currently not played.
+15:54:24,068 - INFO  - Ask for programs reassignment.
+15:54:24,069 - INFO  - Starting computing channels assignment.
+15:54:24,069 - INFO  - Orders computation done in 0ms
+15:54:24,069 - INFO  - Now sending orders
+15:54:24,069 - INFO  - Orders sent in 0ms
+15:55:24,069 - INFO  - Program test is currently not played.
+15:55:24,069 - INFO  - Ask for programs reassignment.
+15:55:24,070 - INFO  - Starting computing channels assignment.
+15:55:24,070 - INFO  - Orders computation done in 0ms
+15:55:24,070 - INFO  - Now sending orders
+15:55:24,070 - INFO  - Orders sent in 0ms
+15:56:24,069 - INFO  - Program test is currently not played.
+15:56:24,069 - INFO  - Ask for programs reassignment.
+15:56:24,069 - INFO  - Starting computing channels assignment.
+15:56:24,070 - INFO  - Orders computation done in 0ms
+15:56:24,070 - INFO  - Now sending orders
+15:56:24,070 - INFO  - Orders sent in 0ms
+15:57:24,069 - INFO  - Program test is currently not played.
+15:57:24,069 - INFO  - Ask for programs reassignment.
+15:57:24,070 - INFO  - Starting computing channels assignment.
+15:57:24,070 - INFO  - Orders computation done in 0ms
+15:57:24,070 - INFO  - Now sending orders
+15:57:24,070 - INFO  - Orders sent in 0ms
+15:58:24,070 - INFO  - Program test is currently not played.
+15:58:24,070 - INFO  - Ask for programs reassignment.
+15:58:24,071 - INFO  - Starting computing channels assignment.
+15:58:24,071 - INFO  - Orders computation done in 0ms
+15:58:24,071 - INFO  - Now sending orders
+15:58:24,071 - INFO  - Orders sent in 0ms
+15:59:24,069 - INFO  - Program test is currently not played.
+15:59:24,069 - INFO  - Ask for programs reassignment.
+15:59:24,070 - INFO  - Starting computing channels assignment.
+15:59:24,070 - INFO  - Orders computation done in 0ms
+15:59:24,070 - INFO  - Now sending orders
+15:59:24,070 - INFO  - Orders sent in 0ms
+16:00:24,070 - INFO  - Program test is currently not played.
+16:00:24,070 - INFO  - Ask for programs reassignment.
+16:00:24,071 - INFO  - Starting computing channels assignment.
+16:00:24,071 - INFO  - Orders computation done in 0ms
+16:00:24,071 - INFO  - Now sending orders
+16:00:24,071 - INFO  - Orders sent in 0ms
+16:01:24,070 - INFO  - Program test is currently not played.
+16:01:24,070 - INFO  - Ask for programs reassignment.
+16:01:24,071 - INFO  - Starting computing channels assignment.
+16:01:24,071 - INFO  - Orders computation done in 0ms
+16:01:24,071 - INFO  - Now sending orders
+16:01:24,072 - INFO  - Orders sent in 0ms
+16:02:24,072 - INFO  - Program test is currently not played.
+16:02:24,072 - INFO  - Ask for programs reassignment.
+16:02:24,073 - INFO  - Starting computing channels assignment.
+16:02:24,073 - INFO  - Orders computation done in 0ms
+16:02:24,073 - INFO  - Now sending orders
+16:02:24,073 - INFO  - Orders sent in 0ms
+16:03:24,072 - INFO  - Program test is currently not played.
+16:03:24,072 - INFO  - Ask for programs reassignment.
+16:03:24,073 - INFO  - Starting computing channels assignment.
+16:03:24,073 - INFO  - Orders computation done in 0ms
+16:03:24,073 - INFO  - Now sending orders
+16:03:24,073 - INFO  - Orders sent in 0ms
+16:04:24,075 - INFO  - Program test is currently not played.
+16:04:24,075 - INFO  - Ask for programs reassignment.
+16:04:24,076 - INFO  - Starting computing channels assignment.
+16:04:24,076 - INFO  - Orders computation done in 0ms
+16:04:24,076 - INFO  - Now sending orders
+16:04:24,076 - INFO  - Orders sent in 0ms
+16:05:24,074 - INFO  - Program test is currently not played.
+16:05:24,074 - INFO  - Ask for programs reassignment.
+16:05:24,074 - INFO  - Starting computing channels assignment.
+16:05:24,075 - INFO  - Orders computation done in 0ms
+16:05:24,075 - INFO  - Now sending orders
+16:05:24,075 - INFO  - Orders sent in 0ms
+16:06:24,076 - INFO  - Program test is currently not played.
+16:06:24,076 - INFO  - Ask for programs reassignment.
+16:06:24,077 - INFO  - Starting computing channels assignment.
+16:06:24,077 - INFO  - Orders computation done in 0ms
+16:06:24,077 - INFO  - Now sending orders
+16:06:24,077 - INFO  - Orders sent in 0ms
+16:07:24,075 - INFO  - Program test is currently not played.
+16:07:24,075 - INFO  - Ask for programs reassignment.
+16:07:24,076 - INFO  - Starting computing channels assignment.
+16:07:24,076 - INFO  - Orders computation done in 0ms
+16:07:24,076 - INFO  - Now sending orders
+16:07:24,076 - INFO  - Orders sent in 0ms
+16:08:24,076 - INFO  - Program test is currently not played.
+16:08:24,076 - INFO  - Ask for programs reassignment.
+16:08:24,077 - INFO  - Starting computing channels assignment.
+16:08:24,077 - INFO  - Orders computation done in 0ms
+16:08:24,077 - INFO  - Now sending orders
+16:08:24,077 - INFO  - Orders sent in 0ms
+16:55:38,124 - INFO  - Program test is currently not played.
+16:55:38,124 - INFO  - Ask for programs reassignment.
+16:55:38,127 - INFO  - Starting computing channels assignment.
+16:55:38,130 - INFO  - Orders computation done in 0ms
+16:55:38,131 - INFO  - Now sending orders
+16:55:38,132 - INFO  - Orders sent in 1ms
+16:56:38,124 - INFO  - Program test is currently not played.
+16:56:38,124 - INFO  - Ask for programs reassignment.
+16:56:38,125 - INFO  - Starting computing channels assignment.
+16:56:38,125 - INFO  - Orders computation done in 0ms
+16:56:38,125 - INFO  - Now sending orders
+16:56:38,125 - INFO  - Orders sent in 0ms
+16:57:38,125 - INFO  - Program test is currently not played.
+16:57:38,125 - INFO  - Ask for programs reassignment.
+16:57:38,127 - INFO  - Starting computing channels assignment.
+16:57:38,127 - INFO  - Orders computation done in 0ms
+16:57:38,127 - INFO  - Now sending orders
+16:57:38,127 - INFO  - Orders sent in 0ms
+16:58:38,127 - INFO  - Program test is currently not played.
+16:58:38,128 - INFO  - Ask for programs reassignment.
+16:58:38,129 - INFO  - Starting computing channels assignment.
+16:58:38,129 - INFO  - Orders computation done in 0ms
+16:58:38,129 - INFO  - Now sending orders
+16:58:38,130 - INFO  - Orders sent in 0ms
+16:59:38,127 - INFO  - Program test is currently not played.
+16:59:38,128 - INFO  - Ask for programs reassignment.
+16:59:38,129 - INFO  - Starting computing channels assignment.
+16:59:38,130 - INFO  - Orders computation done in 0ms
+16:59:38,130 - INFO  - Now sending orders
+16:59:38,130 - INFO  - Orders sent in 0ms
+17:00:38,128 - INFO  - Program test is currently not played.
+17:00:38,128 - INFO  - Ask for programs reassignment.
+17:00:38,129 - INFO  - Starting computing channels assignment.
+17:00:38,129 - INFO  - Orders computation done in 0ms
+17:00:38,129 - INFO  - Now sending orders
+17:00:38,130 - INFO  - Orders sent in 0ms
+17:01:38,129 - INFO  - Program test is currently not played.
+17:01:38,129 - INFO  - Ask for programs reassignment.
+17:01:38,130 - INFO  - Starting computing channels assignment.
+17:01:38,130 - INFO  - Orders computation done in 0ms
+17:01:38,131 - INFO  - Now sending orders
+17:01:38,131 - INFO  - Orders sent in 0ms

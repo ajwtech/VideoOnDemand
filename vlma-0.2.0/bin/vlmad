@@ -1,0 +1,51 @@
+#!/bin/sh
+
+function usage() {
+    echo "Usage: vlmad [start|stop|reload|help]"
+}
+
+# Parse command line
+COMMAND="$1"
+if [ "$COMMAND" = "start" ]
+then
+    echo "[INFO] Starting VLMad."
+elif [ "$COMMAND" = "stop" ]
+then
+    echo "[INFO] Stopping VLMad."
+elif [ "$COMMAND" = "reload" ]
+then
+    echo "[INFO] Reloading VLMad."
+elif [ "$COMMAND" = "help" ]
+then
+    usage
+    exit 0
+else
+    echo "[ERROR] Command not found."
+    usage
+    exit 1
+fi
+
+PRG="$0"
+PRGDIR=`dirname $PRG`
+. $PRGDIR/vlma-env.sh
+
+# Set classpath
+VLMA_CLASSPATH=""
+for jar in $VLMA_LIBS/daemon/*
+do
+    VLMA_CLASSPATH="$VLMA_CLASSPATH:$jar"
+done
+
+# Set VLMA_OPTS
+VLMA_OPTS="$VLMA_OPTS\
+ -Dvlma.home=$VLMA_HOME\
+ -Dvlma.conf=$VLMA_CONF\
+ -Dvlma.data=$VLMA_DATA\
+ -Dvlma.logs=$VLMA_LOGS\
+ -Dvlma.work=$VLMA_WORK\
+ -Dlog4j.configuration=file:$VLMA_CONF/log4j.properties\
+ -classpath $VLMA_CLASSPATH"
+
+# Run VLMad
+OPTS="$VLMA_OPTS $JAVA_OPTS org.videolan.vlma.daemon.VLMad $COMMAND"
+exec $JAVA $OPTS

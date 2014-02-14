@@ -1,0 +1,40 @@
+<data>
+  <satellites/>
+  <servers/>
+  <medias>
+    <filesChannel>
+      <id>-1385213803</id>
+      <name>file</name>
+      <program>
+        <broadcastState>false</broadcastState>
+        <ip class="java.net.Inet4Address" resolves-to="java.net.InetAddress" serialization="custom">
+          <java.net.InetAddress>
+            <default>
+              <address>-268497612</address>
+              <family>2</family>
+            </default>
+          </java.net.InetAddress>
+        </ip>
+        <liveInterval>-1</liveInterval>
+        <liveLength>-1</liveLength>
+        <liveRepetitions>1</liveRepetitions>
+        <liveStart>2014-02-13 11:25:35.986 EST</liveStart>
+        <priority>10</priority>
+        <sapGroup>Files</sapGroup>
+        <sapName>test</sapName>
+        <streamingStrategy>
+          <protocol>UDP_MULTICAST</protocol>
+          <announcements>
+            <announcement>SAP</announcement>
+            <announcement>PODCAST</announcement>
+            <announcement>M3U</announcement>
+          </announcements>
+          <encapsulation>TS</encapsulation>
+        </streamingStrategy>
+      </program>
+      <files>
+        <string>C:\Users\ajwheele\Desktop\CastVideos-chrome\videos\videoviewdemo.mp4</string>
+      </files>
+    </filesChannel>
+  </medias>
+</data>

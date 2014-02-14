@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="vlma" template="/WEB-INF/jsp/template.jsp">
+        <put-attribute name="title" value="VLMa" />
+    </definition>
+
+    <!-- welcome -->
+
+    <definition name="welcome-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="welcome.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.welcome" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/welcome/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/welcome/welcome_left.jsp" />
+    </definition>
+
+    <definition name="welcome" extends="welcome-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/welcome/welcome_right.jsp" />
+    </definition>
+
+    <!-- configuration -->
+
+    <definition name="configuration-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="configuration.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.configuration" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/configuration/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/configuration/configuration_left.jsp" />
+    </definition>
+
+    <definition name="configurationedit" extends="configuration-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/configuration/configurationedit_right.jsp" />
+    </definition>
+
+    <!-- file -->
+
+    <definition name="file-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="files.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.files" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/file/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/file/file_left.jsp" />
+    </definition>
+
+    <definition name="filechannellist" extends="file-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/file/filechannellist_right.jsp" />
+    </definition>
+
+    <definition name="filechanneledit" extends="file-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/file/filechanneledit_right.jsp" />
+    </definition>
+
+    <definition name="filechanneladd" extends="file-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/file/filechanneladd_right.jsp" />
+    </definition>
+
+    <!-- stream -->
+
+    <definition name="stream-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="streams.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.streams" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/stream/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/stream/stream_left.jsp" />
+    </definition>
+
+    <definition name="streamchannellist" extends="stream-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/stream/streamchannellist_right.jsp" />
+    </definition>
+
+    <definition name="streamchanneledit" extends="stream-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/stream/streamchanneledit_right.jsp" />
+    </definition>
+
+    <definition name="streamchanneladd" extends="stream-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/stream/streamchanneladd_right.jsp" />
+    </definition>
+
+    <!-- DTT -->
+
+    <definition name="dtt-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="dtt.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.dtt" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/dtt/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/dtt/dtt_left.jsp" />
+    </definition>
+
+    <definition name="dttchannellist" extends="dtt-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/dtt/dttchannellist_right.jsp" />
+    </definition>
+
+    <definition name="dttchanneladd" extends="dtt-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/dtt/dttchanneladd_right.jsp" />
+    </definition>
+
+
+    <!-- Satellite -->
+
+    <definition name="satellite-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="satellites.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.sat" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/satellite/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/satellite/satellite_left.jsp" />
+    </definition>
+
+    <definition name="satchannellist" extends="satellite-parent">
+        <put-attribute name="left" value="/WEB-INF/jsp/satellite/satchannellist_left.jsp" />
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satchannellist_right.jsp" />
+    </definition>
+
+    <definition name="satchannelupdate" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satchannelupdate_right.jsp" />
+    </definition>
+
+    <definition name="satchannelupdatesuccess" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satchannelupdatesuccess_right.jsp" />
+    </definition>
+
+    <definition name="satelliteadd" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satelliteadd_right.jsp" />
+    </definition>
+
+    <definition name="satelliteedit" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satelliteedit_right.jsp" />
+    </definition>
+
+    <definition name="satellitelist" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satellitelist_right.jsp" />
+    </definition>
+
+    <definition name="satelliteremove" extends="satellite-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/satellite/satelliteremove_right.jsp" />
+    </definition>
+
+    <!-- media -->
+
+    <definition name="media-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="medias.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.media" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/media/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/media/media_left.jsp" />
+    </definition>
+
+    <definition name="mediaprogramadd" extends="media-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/media/mediaprogramadd_right.jsp" />
+    </definition>
+
+    <definition name="mediaprogramremove" extends="media-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/media/mediaprogramremove_right.jsp" />
+    </definition>
+
+    <definition name="mediaremove" extends="media-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/media/mediaremove_right.jsp" />
+    </definition>
+
+
+    <!-- orders -->
+
+    <definition name="order-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="orders.startmonitoring.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.orders" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/order/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/order/order_left.jsp" />
+    </definition>
+
+    <definition name="ordermonitor" extends="order-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/order/ordermonitor_right.jsp" />
+    </definition>
+
+    <definition name="ordercommands" template="/WEB-INF/jsp/order/ordercommands.jsp" />
+
+    <definition name="orderstartmonitoring" extends="order-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/order/orderstartmonitoring_right.jsp" />
+    </definition>
+
+    <!-- servers -->
+
+    <definition name="server-parent" extends="vlma">
+        <put-attribute name="title" type="string" value="servers.title" />
+        <put-attribute name="subheader_left" type="string" value="quicklinks.servers" />
+        <put-attribute name="subheader_right" value="/WEB-INF/jsp/server/quicklinks.jsp" />
+        <put-attribute name="left" value="/WEB-INF/jsp/server/server_left.jsp" />
+    </definition>
+
+    <definition name="serverlist" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serverlist_right.jsp" />
+    </definition>
+
+    <definition name="serveradd" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serveradd_right.jsp" />
+    </definition>
+
+    <definition name="serveradapteradd" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serveradapteradd_right.jsp" />
+    </definition>
+
+    <definition name="serveradapterremove" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serveradapterremove_right.jsp" />
+    </definition>
+
+    <definition name="serverremove" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serverremove_right.jsp" />
+    </definition>
+
+    <definition name="serverstartcheckvlc" extends="server-parent">
+        <put-attribute name="title" value="servers.startcheckvlc.title" />
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serverstartcheckvlc_right.jsp" />
+    </definition>
+
+    <definition name="serverview" extends="server-parent">
+        <put-attribute name="right" value="/WEB-INF/jsp/server/serverview_right.jsp" />
+    </definition>
+
+    <definition name="servermonitoring" template="/WEB-INF/jsp/server/servermonitoring.jsp" />
+
+    <!-- services -->
+
+    <definition name="services/playlist" template="/WEB-INF/jsp/service/playlist.jsp" />
+
+    <definition name="services/podcast" template="/WEB-INF/jsp/service/podcast.jsp" />
+
+</tiles-definitions>

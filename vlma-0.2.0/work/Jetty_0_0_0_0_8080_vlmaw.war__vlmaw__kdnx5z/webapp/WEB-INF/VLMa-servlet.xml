@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (C) 2006-2008 the VideoLAN team
+
+  This file is part of VLMa.
+
+  VLMa is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  VLMa is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with VLMa. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dwr="http://www.directwebremoting.org/schema/spring-dwr"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.directwebremoting.org/schema/spring-dwr
+           http://www.directwebremoting.org/schema/spring-dwr-2.0.xsd">
+
+	<!-- Welcome beans -->
+
+    <bean id="welcomeController" class="org.videolan.vlma.web.welcome.WelcomeController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+	<!-- Configuration beans -->
+
+    <bean id="configurationEditValidator" class="org.videolan.vlma.web.configuration.ConfigurationEditValidator" />
+    <bean id="configurationEditController" class="org.videolan.vlma.web.configuration.ConfigurationEditController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="configurationEdit" />
+        <property name="commandClass" value="org.videolan.vlma.web.configuration.ConfigurationEdit" />
+        <property name="validator" ref="configurationEditValidator" />
+        <property name="formView" value="configurationedit" />
+        <property name="successView" value="configurationedit.htm" />
+    </bean>
+
+    <!-- Servers beans -->
+
+    <bean id="serverListController" class="org.videolan.vlma.web.server.ServerListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="serverViewController" class="org.videolan.vlma.web.server.ServerViewController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="serverAddValidator" class="org.videolan.vlma.web.server.ServerAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="serverAddController" class="org.videolan.vlma.web.server.ServerAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="serverAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.server.ServerAdd" />
+        <property name="validator" ref="serverAddValidator" />
+        <property name="formView" value="serveradd" />
+        <property name="successView" value="serverlist.htm" />
+    </bean>
+
+    <bean id="serverRemoveValidator" class="org.videolan.vlma.web.server.ServerRemoveValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="serverRemoveController" class="org.videolan.vlma.web.server.ServerRemoveController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="serverRemove" />
+        <property name="commandClass" value="org.videolan.vlma.web.server.ServerAdd" />
+        <property name="validator" ref="serverRemoveValidator" />
+        <property name="formView" value="serverremove" />
+        <property name="successView" value="serverlist.htm" />
+    </bean>
+
+    <bean id="serverAdapterAddValidator" class="org.videolan.vlma.web.server.ServerAdapterAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="serverAdapterAddController" class="org.videolan.vlma.web.server.ServerAdapterAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="serverAdapterAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.server.ServerAdapterAdd" />
+        <property name="validator" ref="serverAdapterAddValidator" />
+        <property name="formView" value="serveradapteradd" />
+        <property name="successView" value="redirect:serverview.htm" />
+    </bean>
+
+    <bean id="serverAdapterRemoveValidator" class="org.videolan.vlma.web.server.ServerAdapterRemoveValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="serverAdapterRemoveController" class="org.videolan.vlma.web.server.ServerAdapterRemoveController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="serverAdapterRemove" />
+        <property name="commandClass" value="org.videolan.vlma.web.server.ServerAdapterAdd" />
+        <property name="validator" ref="serverAdapterRemoveValidator" />
+        <property name="formView" value="serveradapterremove" />
+        <property name="successView" value="redirect:serverview.htm" />
+    </bean>
+
+    <bean id="serverStartCheckVLCController" class="org.videolan.vlma.web.server.ServerStartCheckVLCController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="serverMonotoringController" class="org.videolan.vlma.web.server.ServerMonitoringController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <!-- Media beans -->
+
+    <bean id="mediaProgramAddValidator" class="org.videolan.vlma.web.media.MediaProgramAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="mediaProgramAddController" class="org.videolan.vlma.web.media.MediaProgramAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="mediaProgramAdd" />
+        <property name="commandClass" value ="org.videolan.vlma.web.media.MediaProgramAdd" />
+        <property name="validator" ref="mediaProgramAddValidator" />
+        <property name="formView" value="mediaprogramadd" />
+        <property name="successViewFile" value="filechannellist.htm" />
+        <property name="successViewSat" value="satchannellist.htm" />
+		<property name="successViewStream" value="streamchannellist.htm" />
+		<property name="successViewDTT" value="dttchannellist.htm" />
+    </bean>
+
+    <bean id="mediaProgramRemoveValidator" class="org.videolan.vlma.web.media.MediaProgramRemoveValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="mediaProgramRemoveController" class="org.videolan.vlma.web.media.MediaProgramRemoveController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="mediaProgramRemove" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.MediaProgramAdd" />
+        <property name="validator" ref="mediaProgramRemoveValidator" />
+        <property name="formView" value="mediaprogramremove" />
+        <property name="successViewFile" value="filechannellist.htm" />
+        <property name="successViewSat" value="satchannellist.htm" />
+		<property name="successViewStream" value="streamchannellist.htm" />
+		<property name="successViewDTT" value="dttchannellist.htm" />
+    </bean>
+
+    <bean id="mediaRemoveValidator" class="org.videolan.vlma.web.media.MediaRemoveValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="mediaRemoveController" class="org.videolan.vlma.web.media.MediaRemoveController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="mediaRemove" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.MediaRemove" />
+        <property name="formView" value="mediaremove" />
+        <property name="successView" value="welcome.htm" />
+    </bean>
+
+    <!-- File beans -->
+
+    <bean id="fileChannelListController" class="org.videolan.vlma.web.media.file.FileChannelListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="fileChannelAddValidator" class="org.videolan.vlma.web.media.file.FileChannelAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="fileChannelAddController" class="org.videolan.vlma.web.media.file.FileChannelAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="fileChannelAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.file.FileChannelAdd" />
+        <property name="validator" ref="fileChannelAddValidator" />
+        <property name="formView" value="filechanneladd" />
+        <property name="successView" value="filechannellist.htm" />
+    </bean>
+
+    <bean id="fileChannelEditValidator" class="org.videolan.vlma.web.media.file.FileChannelEditValidator" />
+    <bean id="fileChannelEditController" class="org.videolan.vlma.web.media.file.FileChannelEditController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="fileChannelAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.file.FileChannelAdd" />
+        <property name="validator" ref="fileChannelEditValidator" />
+        <property name="formView" value="filechanneledit" />
+        <property name="successView" value="filechannellist.htm" />
+    </bean>
+
+
+    <!-- Stream beans -->
+
+    <bean id="streamChannelListController" class="org.videolan.vlma.web.media.stream.StreamChannelListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="streamChannelAddValidator" class="org.videolan.vlma.web.media.stream.StreamChannelAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="streamChannelAddController" class="org.videolan.vlma.web.media.stream.StreamChannelAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="streamChannelAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.stream.StreamChannelAdd" />
+        <property name="validator" ref="streamChannelAddValidator" />
+        <property name="formView" value="streamchanneladd" />
+        <property name="successView" value="streamchannellist.htm" />
+    </bean>
+
+    <bean id="streamChannelEditValidator" class="org.videolan.vlma.web.media.stream.StreamChannelEditValidator" />
+    <bean id="streamChannelEditController" class="org.videolan.vlma.web.media.stream.StreamChannelEditController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="streamChannelAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.stream.StreamChannelAdd" />
+        <property name="validator" ref="streamChannelEditValidator" />
+        <property name="formView" value="streamchanneledit" />
+        <property name="successView" value="streamchannellist.htm" />
+    </bean>
+
+
+    <!-- Satellite beans -->
+
+    <bean id="satChannelListController" class="org.videolan.vlma.web.media.satellite.SatChannelListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="satChannelUpdateValidator" class="org.videolan.vlma.web.media.satellite.SatChannelUpdateValidator" />
+    <bean id="satChannelUpdateController" class="org.videolan.vlma.web.media.satellite.SatChannelUpdateController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="satChannelUpdate" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.satellite.SatChannelUpdate" />
+        <property name="validator" ref="satChannelUpdateValidator" />
+        <property name="formView" value="satchannelupdate" />
+        <property name="successView" value="satchannelupdatesucces.htm" />
+    </bean>
+
+    <bean id="satChannelUpdateSuccessController" class="org.videolan.vlma.web.media.satellite.SatChannelUpdateSuccessController" />
+
+
+    <!-- DTT beans -->
+
+    <bean id="dTTChannelListController" class="org.videolan.vlma.web.media.dtt.DTTChannelListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="dTTChannelAddValidator" class="org.videolan.vlma.web.media.dtt.DTTChannelAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="dTTchannelAddController" class="org.videolan.vlma.web.media.dtt.DTTChannelAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="dTTChannelAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.media.dtt.DTTChannelAdd" />
+        <property name="validator" ref="dTTChannelAddValidator" />
+        <property name="formView" value="dttchanneladd" />
+        <property name="successView" value="dttchannellist.htm" />
+    </bean>
+
+
+    <!-- Satellite beans -->
+
+    <bean id="satelliteListController" class="org.videolan.vlma.web.satellite.SatelliteListController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="satelliteAddValidator" class="org.videolan.vlma.web.satellite.SatelliteAddValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="satelliteAddController" class="org.videolan.vlma.web.satellite.SatelliteAddController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="satelliteAdd" />
+        <property name="commandClass" value="org.videolan.vlma.web.satellite.SatelliteAdd" />
+        <property name="validator" ref="satelliteAddValidator" />
+        <property name="formView" value="satelliteadd" />
+        <property name="successView" value="satellitelist.htm" />
+    </bean>
+
+    <bean id="satelliteEditValidator" class="org.videolan.vlma.web.satellite.SatelliteEditValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="satelliteEditController" class="org.videolan.vlma.web.satellite.SatelliteEditController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="satelliteEdit" />
+        <property name="commandClass" value="org.videolan.vlma.web.satellite.SatelliteAdd" />
+        <property name="validator" ref="satelliteEditValidator" />
+        <property name="formView" value="satelliteedit" />
+        <property name="successView" value="satellitelist.htm" />
+    </bean>
+
+    <bean id="satelliteRemoveValidator" class="org.videolan.vlma.web.satellite.SatelliteRemoveValidator">
+        <property name="data" ref="dataImporter" />
+    </bean>
+    <bean id="satelliteRemoveController" class="org.videolan.vlma.web.satellite.SatelliteRemoveController">
+        <property name="data" ref="dataImporter" />
+        <property name="sessionForm" value="true" />
+        <property name="commandName" value="satelliteRemove" />
+        <property name="commandClass" value="org.videolan.vlma.web.satellite.SatelliteAdd" />
+        <property name="validator" ref="satelliteRemoveValidator" />
+        <property name="formView" value="satelliteremove" />
+        <property name="successView" value="satellitelist.htm" />
+    </bean>
+
+    <!-- Service beans -->
+
+    <bean id="playlistController" class="org.videolan.vlma.web.service.PlaylistController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="podcastController" class="org.videolan.vlma.web.service.PodcastController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <!-- Orders beans -->
+
+    <bean id="orderMonitorController" class="org.videolan.vlma.web.order.OrderMonitorController" />
+
+    <bean id="orderCommandController" class="org.videolan.vlma.web.order.OrderCommandController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+    <bean id="orderStartMonitoringController" class="org.videolan.vlma.web.order.OrderStartMonitoringController">
+        <property name="data" ref="dataImporter" />
+    </bean>
+
+
+    <!-- Others beans -->
+
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value="messages" />
+    </bean>
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>
+
+    <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+        <property name="paramName" value="lang"/>
+    </bean>
+
+    <bean id="viewNameTranslator" class="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator" />
+
+    <bean id="urlMapping" class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping">
+        <property name="interceptors">
+            <list>
+                <ref bean="localeChangeInterceptor"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="dwrUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="/engine.js">dwrController</prop>
+                <prop key="/util.js">dwrController</prop>
+                <prop key="/interface/**">dwrController</prop>
+                <prop key="/call/**">dwrController</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="servicesUrlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="/services/podcast.xml">podcastController</prop>
+                <prop key="/services/playlist.m3u">podcastController</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <!-- Tiles 2 configuration -->
+
+    <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+        <property name="definitions">
+            <list>
+                <value>/WEB-INF/defs/templates.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- The viewResolver to query Tiles templates -->
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView" />
+    </bean>
+
+</beans>

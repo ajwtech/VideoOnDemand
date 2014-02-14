@@ -1,0 +1,218 @@
+/*
+  CSS for VLMa (VideoLAN Manager)
+  Original theme by Weborama (Recstyle)
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 70% Tahoma, Arial, Helvetica, sans-serif;
+    color: #7e7e7e;
+    line-height: 16px;
+}
+
+a img {
+    border: none;
+}
+
+a {
+    color: #33abbd;
+    background-color: inherit;
+}
+
+a:hover {
+    color: #575757;
+    background-color: inherit;
+}
+
+h1 {
+    font: bold 180% Arial, Sans-Serif;
+    letter-spacing: -1px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 10px;
+    padding: 0;
+    font: bold 145% Arial, Sans-Serif;
+    color: #222;
+    background-color: inherit;
+}
+
+h3 {
+    color: #444;
+    font: bold 125% Arial, Sans-Serif;
+}
+
+textarea {
+    min-width: 380px;
+}
+
+p {
+    padding: 2px 0 5px;
+    margin: 0;
+}
+
+p.lien {
+    padding: 0;
+}
+
+.error {
+	color: red;	
+}
+
+div.help {
+    margin: 15px;
+}
+
+#content {
+    margin: 0px auto;
+    min-width: 780px;
+    width: 80%;
+}
+
+.header {
+    height: 80px;
+    margin: 5px;
+    padding: 0;
+    border-top: 4px;
+    color: #808080;
+}
+
+.lang {
+    float: right;
+    width: 150px;
+}
+
+.searchform {
+    float: right;
+    padding: 2px 5px 0 0;
+}
+
+.subheader {
+    clear: both;
+    height: 23px;
+    margin: 0 0 10px 0;
+}
+
+.subheader_left {
+    float: left;
+    line-height: 28px;
+    font-weight: bold;
+    width: 193px;
+    background: #33addb repeat-x;
+    color: #fff;
+    padding: 0 5px 0 5px;
+}
+
+.subheader_left a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: inherit;
+}
+
+.subheader_right {
+    background: #F6F6F6 repeat-x;
+    color: #626262;
+    line-height: 28px;
+    margin-left: 205px;
+}
+
+.subheader_right a {
+    margin: 0px 2px 0 0;
+    padding: 7px 10px 8px 10px;
+    color: #626262;
+    background: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.subheader_right a.active {
+    background: #33ADDB repeat-x;
+    color: #fff;
+}
+
+.subheader_right a:hover {
+    background: #33ADDB repeat-x;
+    color: #fff;
+    border-top: 1px solid #1a83ac;
+}
+
+.left {
+    float: left;
+    padding: 5px 0 0 5px;
+    width: 190px;
+}
+
+.right {
+    margin: 0 0 20px 204px;
+    padding: 5px 0 0 15px;
+    color: #000;
+    background-color: #fff;
+    border-left: 1px solid #e6e6e6;
+}
+
+.right_right {
+    float: right;
+    width: 240px;
+    padding: 13px;
+    background: #f2f2f2 no-repeat bottom right;
+    color: #626262;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.footer {
+    clear: both;
+    color: #999;
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 13px;
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+input.text {
+    margin: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+
+input.text:hover {
+    border: 1px solid #808080;
+}
+
+th {
+    padding: 2px;
+    text-align : left;
+    color: #fff;
+    background-color: #8df;
+}
+
+tr.even {
+    background-color: #eff;
+}
+
+tr.odd {
+    background-color: #fff;
+}
+
+td {
+    text-align : left;
+}

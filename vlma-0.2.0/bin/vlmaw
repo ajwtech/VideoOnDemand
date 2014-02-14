@@ -1,0 +1,60 @@
+#!/bin/sh
+
+function usage() {
+    echo "Usage: vlmaw [start|stop|help]"
+}
+
+# Parse command line
+COMMAND="$1"
+if [ "$COMMAND" = "start" ]
+then
+    echo "[INFO] Starting VLMaw."
+elif [ "$COMMAND" = "stop" ]
+then
+    echo "[INFO] Stopping VLMaw."
+elif [ "$COMMAND" = "help" ]
+then
+    usage
+    exit 0
+else
+    echo "[ERROR] Command not found."
+    usage
+    exit 1
+fi
+
+PRG="$0"
+PRGDIR=`dirname $PRG`
+. $PRGDIR/vlma-env.sh
+
+# Set classpath
+VLMA_CLASSPATH=""
+for jar in $VLMA_LIBS/web/*.jar
+do
+    VLMA_CLASSPATH="$VLMA_CLASSPATH:$jar"
+done
+VLMA_CLASSPATH="$VLMA_CLASSPATH:$JAVA_HOME/lib/tools.jar"
+
+# Set VLMA_OPTS
+VLMA_OPTS="$VLMA_OPTS\
+ -Dvlma.home=$VLMA_HOME\
+ -Dvlma.conf=$VLMA_CONF\
+ -Dvlma.logs=$VLMA_LOGS\
+ -Djetty.lib=$VLMA_LIBS/web\
+ -Dvlma.webapps=$VLMA_WEBAPPS\
+ -DSTOP.PORT=8079\
+ -DSTOP.KEY=vlmaw\
+ -classpath $VLMA_CLASSPATH"
+
+# Run VLMaw
+OPTS="$VLMA_OPTS $JAVA_OPTS org.mortbay.start.Main"
+if [ "$COMMAND" = "start" ]
+then
+    OPTS="$OPTS $VLMA_CONF/jetty.xml"
+else
+    if [ "$COMMAND" = "stop" ]
+    then
+        OPTS="$OPTS --stop"
+    fi
+fi
+
+exec $JAVA $OPTS

@@ -1,0 +1,18 @@
+VLMa (VideoLAN Manager)
+=======================
+
+VLMa is an application which aims at providing an easy way to manage
+several servers running VLC at the same time. It consists of a daemon
+responsible for assigning orders to available servers and a web
+interface to manage configuration.
+
+VLMa is distributed under the terms of the GNU General Public Licence
+(GPL) version 2 or any later version. See COPYING.
+
+A typical use case is the streaming of satellite channels over a
+multicast network. However, VLMa can also help you stream files or TNT
+channels over a network that doesn't support multicast. For more
+information, have a look at:
+ * the official website: http://www.videolan.org/vlma
+ * VideoLAN wiki: http://wiki.videolan.org/VLMa
+
